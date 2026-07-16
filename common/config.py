@@ -1,7 +1,8 @@
 """
 KrishiMitra - Configuration Manager
 
-Loads YAML configuration files for the project.
+Loads all YAML configuration files and provides a single
+configuration interface for the entire project.
 
 Author: Pratiksha Malewar
 """
@@ -14,45 +15,80 @@ import yaml
 
 class ConfigManager:
     """
-    Loads and provides access to YAML configuration files.
+    Central configuration manager.
+
+    Automatically loads all YAML configuration files
+    inside the configs directory.
     """
 
-    def __init__(self, config_path: str):
-        self.config_path = Path(config_path)
+    def __init__(self, config_dir: str = "configs"):
 
-        if not self.config_path.exists():
+        self.config_dir = Path(config_dir)
+
+        if not self.config_dir.exists():
             raise FileNotFoundError(
-                f"Configuration file not found: {self.config_path}"
+                f"Configuration directory not found: {self.config_dir}"
             )
 
-        with open(self.config_path, "r", encoding="utf-8") as file:
-            self.config: Dict[str, Any] = yaml.safe_load(file)
+        self.config: Dict[str, Any] = {}
+
+        self._load_all_configs()
+
+    # ---------------------------------------------------------
+
+    def _load_all_configs(self) -> None:
+        """
+        Load every YAML file inside configs/.
+        """
+
+        for yaml_file in self.config_dir.glob("*.yaml"):
+
+            with open(yaml_file, "r", encoding="utf-8") as file:
+
+                data = yaml.safe_load(file) or {}
+
+            self.config[yaml_file.stem] = data
+
+    # ---------------------------------------------------------
 
     def get(self, key: str, default: Any = None) -> Any:
         """
-        Retrieve a value using dot notation.
+        Retrieve value using dot notation.
 
         Example:
-            config.get("paths.datasets.raw")
+
+        config.get("paths.paths.datasets.raw")
+
+        config.get("training.training.batch_size")
+
+        config.get("model.model.num_classes")
         """
 
         keys = key.split(".")
 
-        value = self.config
+        value: Any = self.config
 
         for k in keys:
+
             if isinstance(value, dict):
+
                 value = value.get(k)
+
             else:
+
                 return default
 
             if value is None:
+
                 return default
 
         return value
 
+    # ---------------------------------------------------------
+
     def to_dict(self) -> Dict[str, Any]:
         """
-        Return the complete configuration dictionary.
+        Return complete configuration.
         """
+
         return self.config
