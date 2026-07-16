@@ -1,0 +1,21 @@
+# ======================================================
+# KrishiMitra - Logging Configuration
+# ======================================================
+
+logging:
+  level: INFO
+
+  console:
+    enabled: true
+
+  file:
+    enabled: true
+
+    directory: logs
+
+    filename: krishimitra.log
+
+  formatter:
+    format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
+
+    date_format: "%Y-%m-%d %H:%M:%S"

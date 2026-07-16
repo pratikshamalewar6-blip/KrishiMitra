@@ -1,0 +1,62 @@
+# ======================================================
+# KrishiMitra - AI Models Configuration
+# ======================================================
+
+# --------------------------
+# Device Configuration
+# --------------------------
+device:
+  use_gpu: true
+  mixed_precision: true
+
+# --------------------------
+# YOLOv11 Configuration
+# --------------------------
+detection:
+  model_name: yolo11n.pt
+
+  image_size: 640
+
+  confidence_threshold: 0.25
+
+  iou_threshold: 0.45
+
+  max_detections: 20
+
+  save_crop: true
+
+  save_visualization: true
+
+# --------------------------
+# SAM2 Configuration
+# --------------------------
+segmentation:
+  model_name: sam2_hiera_tiny
+
+  remove_background: true
+
+  output_format: png
+
+# --------------------------
+# Disease Classification
+# --------------------------
+classification:
+  architecture: efficientnet_b0
+
+  pretrained: true
+
+  input_size: 224
+
+  num_classes: 38
+
+# --------------------------
+# Future Models
+# --------------------------
+future:
+  vision_transformer: false
+
+  clip: false
+
+  grounding_dino: false
+
+  yolov12: false

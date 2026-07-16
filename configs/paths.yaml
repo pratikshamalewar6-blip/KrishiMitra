@@ -1,0 +1,37 @@
+# ==========================================
+# KrishiMitra - Project Paths Configuration
+# ==========================================
+
+project:
+  name: KrishiMitra
+  version: 1.0.0
+
+paths:
+  root: .
+
+  datasets:
+    raw: datasets/raw
+
+    plantvillage: datasets/raw/plantvillage
+
+    plantdoc_classification: datasets/raw/plantdoc_classification
+
+    plantdoc_detection: datasets/raw/plantdoc_detection
+
+    processed: datasets/processed
+
+    cache: datasets/cache
+
+    manifests: datasets/manifests
+
+    splits: datasets/splits
+
+  outputs: outputs
+
+  logs: logs
+
+  saved_models: saved_models
+
+  tensorboard: logs/tensorboard
+
+  notebooks: notebooks
