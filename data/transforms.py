@@ -13,6 +13,7 @@ Project:
 
 from __future__ import annotations
 
+# pyrefly: ignore [missing-import]
 from torchvision import transforms
 
 # ==========================================================
@@ -117,3 +118,21 @@ test_transform = transforms.Compose(
         ),
     ]
 )
+
+# ==========================================================
+# Transform Getter Functions
+# ==========================================================
+
+def get_train_transforms():
+    """Return the Compose transform object for training dataset."""
+    return train_transform
+
+
+def get_validation_transforms():
+    """Return the Compose transform object for validation dataset."""
+    return val_transform
+
+
+def get_test_transforms():
+    """Return the Compose transform object for test dataset."""
+    return test_transform

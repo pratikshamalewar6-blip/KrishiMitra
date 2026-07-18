@@ -20,19 +20,19 @@ Project:
 
 from __future__ import annotations
 
-import csv
-import hashlib
-import json
-from dataclasses import asdict, dataclass
 from pathlib import Path
+from dataclasses import dataclass, asdict
 from typing import Dict, List
+# from collections import defaultdict
 
+import csv
+# import json
 from PIL import Image
 from tqdm import tqdm
 
 from common.config import ConfigManager
-from common.file_utils import FileUtils
 from common.logger import LoggerManager
+from common.file_utils import FileUtils
 
 
 # ==========================================================
@@ -86,7 +86,7 @@ class DatasetValidator:
                     "paths.outputs"
                 )
             )
-            / "dataset_validation"
+            / "validation"
         )
 
         FileUtils.ensure_directory(
@@ -157,40 +157,11 @@ class DatasetValidator:
 
     # ------------------------------------------------------
 
-    def compute_file_hash(self, file_path: Path) -> str:
-        """
-        Compute MD5 hash of a file.
-        """
-        hash_md5 = hashlib.md5()
-        with open(file_path, "rb") as f:
-            for chunk in iter(lambda: f.read(4096), b""):
-                hash_md5.update(chunk)
-        return hash_md5.hexdigest()
-
-    # ------------------------------------------------------
-
-    def validate_image(self, image_path: Path) -> bool:
-        """
-        Verify if image can be opened and is not corrupted.
-        """
-        try:
-            with Image.open(image_path) as image:
-                image.verify()
-            return True
-        except Exception:
-            return False
-
-    # ------------------------------------------------------
-
     def validate_dataset(
         self,
         dataset_name: str,
         dataset_path: Path,
     ) -> ValidationResult:
-
-        self.logger.info("-" * 60)
-        self.logger.info(f"Validating {dataset_name}")
-        self.logger.info("-" * 60)
 
         total_classes = 0
         total_images = 0
@@ -200,9 +171,6 @@ class DatasetValidator:
         invalid_extensions = 0
 
         if not dataset_path.exists():
-            self.logger.warning(
-                f"{dataset_name} folder not found at: {dataset_path}"
-            )
             return ValidationResult(
                 dataset=dataset_name,
                 total_classes=0,
@@ -220,9 +188,6 @@ class DatasetValidator:
 
         total_classes = len(class_dirs)
         if not class_dirs:
-            self.logger.warning(
-                f"No class folders found in {dataset_name}."
-            )
             return ValidationResult(
                 dataset=dataset_name,
                 total_classes=0,
@@ -234,7 +199,7 @@ class DatasetValidator:
                 passed=False,
             )
 
-        seen_hashes = set()
+        seen_files = set()
 
         for class_dir in class_dirs:
 
@@ -257,15 +222,17 @@ class DatasetValidator:
                     invalid_extensions += 1
 
                 # 2. Duplicate Check
-                file_hash = self.compute_file_hash(file_path)
-                if file_hash in seen_hashes:
+                if file_path.name in seen_files:
                     duplicate_images += 1
                 else:
-                    seen_hashes.add(file_hash)
+                    seen_files.add(file_path.name)
 
                 # 3. Corruption Check
                 if ext in self.allowed_extensions:
-                    if not self.validate_image(file_path):
+                    try:
+                        with Image.open(file_path) as image:
+                            image.verify()
+                    except Exception:
                         corrupted_images += 1
 
         passed = (
@@ -292,11 +259,11 @@ class DatasetValidator:
         self,
         dataset_name: str,
         result: ValidationResult,
-    ) -> None:
+    ):
 
         output_file = (
             self.output_dir
-            / f"{dataset_name}_validation_report.csv"
+            / f"{dataset_name}_validation.csv"
         )
 
         with open(
@@ -320,60 +287,7 @@ class DatasetValidator:
 
     # ------------------------------------------------------
 
-    def save_json(
-        self,
-        dataset_name: str,
-        result: ValidationResult,
-    ) -> None:
-
-        output_file = (
-            self.output_dir
-            / f"{dataset_name}_validation_report.json"
-        )
-
-        data = {
-            "dataset": dataset_name,
-            "summary": asdict(result)
-        }
-
-        with open(
-            output_file,
-            "w",
-            encoding="utf-8",
-        ) as file:
-
-            json.dump(
-                data,
-                file,
-                indent=4,
-                ensure_ascii=False,
-            )
-
-        self.logger.info(
-            f"Validation JSON Saved: {output_file}"
-        )
-
-    # ------------------------------------------------------
-
-    def print_summary(self, result: ValidationResult) -> None:
-
-        self.logger.info("-" * 60)
-        self.logger.info(f"Classes          : {result.total_classes}")
-        self.logger.info(f"Images           : {result.total_images}")
-        self.logger.info(f"Corrupted Images : {result.corrupted_images}")
-        self.logger.info(f"Empty Classes    : {result.empty_classes}")
-        self.logger.info(f"Duplicate Images : {result.duplicate_images}")
-        self.logger.info(f"Invalid Exts     : {result.invalid_extensions}")
-
-        if result.passed:
-            self.logger.info("Validation Status: PASSED")
-        else:
-            self.logger.warning("Validation Status: FAILED")
-        self.logger.info("-" * 60)
-
-    # ------------------------------------------------------
-
-    def run(self) -> None:
+    def run(self):
 
         self.logger.info("=" * 70)
         self.logger.info(
@@ -385,19 +299,29 @@ class DatasetValidator:
 
         for dataset_name, dataset_path in dataset_paths.items():
 
+            self.logger.info("")
+            self.logger.info(
+                f"Dataset : {dataset_name}"
+            )
+
             result = self.validate_dataset(
                 dataset_name,
                 dataset_path,
             )
 
-            self.print_summary(result)
+            self.logger.info(f"Total Classes      : {result.total_classes}")
+            self.logger.info(f"Total Images       : {result.total_images}")
+            self.logger.info(f"Corrupted Images   : {result.corrupted_images}")
+            self.logger.info(f"Empty Classes      : {result.empty_classes}")
+            self.logger.info(f"Duplicate Images   : {result.duplicate_images}")
+            self.logger.info(f"Invalid Extensions : {result.invalid_extensions}")
+
+            if result.passed:
+                self.logger.info("Validation Status  : PASSED")
+            else:
+                self.logger.warning("Validation Status  : FAILED")
 
             self.save_csv(
-                dataset_name,
-                result,
-            )
-
-            self.save_json(
                 dataset_name,
                 result,
             )
@@ -413,7 +337,7 @@ class DatasetValidator:
 # Main
 # ==========================================================
 
-def main() -> None:
+def main():
 
     DatasetValidator().run()
 

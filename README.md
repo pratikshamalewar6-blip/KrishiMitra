@@ -10,25 +10,72 @@ This module focuses on real-world crop disease detection using a multi-stage com
 
 ## AI Pipeline
 
-Farmer Image
-│
-▼
-YOLOv11 (Leaf Detection)
-│
-▼
-SAM2 (Leaf Segmentation)
-│
-▼
-EfficientNet-B0 (Disease Classification)
-│
-▼
-Disease Knowledge Base
-│
-▼
-LLM (Gemini / GPT / Llama)
-│
-▼
-Farmer-Friendly Recommendation
+```text
+       Farmer Uploads Image
+                 │
+                 ▼
+       ─────────────────────────────
+       1. Image Validation
+       ─────────────────────────────
+                 │
+                 ▼
+       ─────────────────────────────
+       2. YOLOv11 Leaf Detection
+       ─────────────────────────────
+                 │
+                 ▼
+       Detected Leaf Bounding Box
+                 │
+                 ▼
+       ─────────────────────────────
+       3. SAM2 Leaf Segmentation
+       ─────────────────────────────
+                 │
+                 ▼
+         Background Removed Leaf
+                 │
+                 ▼
+       ─────────────────────────────
+       4. Image Preprocessing
+          224 × 224, Normalization
+       ─────────────────────────────
+                 │
+                 ▼
+       ─────────────────────────────
+       5. EfficientNet-B0
+          Disease Classification
+       ─────────────────────────────
+                 │
+                 ▼
+          Disease + Confidence
+                 │
+                 ▼
+       ─────────────────────────────
+       6. Knowledge Base
+       ─────────────────────────────
+                 │
+                 ▼
+          • Symptoms          • Causes
+          • Organic Treatment • Chemical Treatment
+          • Fertilizer        • Pesticide
+          • Prevention        • Severity
+                 │
+                 ▼
+       ─────────────────────────────
+       7. Gemini AI
+          Generate Explanation
+       ─────────────────────────────
+                 │
+                 ▼
+       ─────────────────────────────
+       8. FastAPI Backend
+       ─────────────────────────────
+                 │
+                 ▼
+       ─────────────────────────────
+       9. Flutter App
+       ─────────────────────────────
+```
 
 ---
 
