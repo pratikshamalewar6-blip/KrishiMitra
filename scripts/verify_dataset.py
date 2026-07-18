@@ -28,17 +28,44 @@ config = ConfigManager()
 
 # report_folder = Path(config.get("outputs.dataset_reports"))
 
+# plantvillage_path = Path(
+#     config.get("paths.paths.datasets.plantvillage")
+# )
+
+# plantdoc_path = Path(
+#     config.get("paths.paths.datasets.plantdoc_detection")
+# )
+
+# report_folder = Path(
+#     config.get("paths.paths.outputs")
+# ) / "dataset_reports"
+# ---------------------------------------------------
+# Dataset Paths
+# ---------------------------------------------------
+
 plantvillage_path = Path(
-    config.get("paths.paths.datasets.plantvillage")
+    config.get("paths.datasets.plantvillage")
 )
 
 plantdoc_path = Path(
-    config.get("paths.paths.datasets.plantdoc_detection")
+    config.get("paths.datasets.plantdoc_detection")
 )
 
-report_folder = Path(
-    config.get("paths.paths.outputs")
-) / "dataset_reports"
+report_folder = (
+    Path(config.get("paths.outputs"))
+    / "dataset_reports"
+)
+
+report_folder.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+manifest_file = (
+    report_folder
+    / "dataset_manifest.json"
+)
+
 report_folder.mkdir(parents=True, exist_ok=True)
 
 manifest_file = report_folder / "dataset_manifest.json"
@@ -80,7 +107,22 @@ def verify_dataset(dataset_path: Path, dataset_name: str):
 
     for class_folder in class_folders:
 
-        image_files = list(class_folder.glob("*"))
+        # image_files = list(class_folder.glob("*"))
+        image_extensions = {
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".bmp",
+        ".tif",
+        ".tiff",
+        ".webp"
+        }
+
+        image_files = [
+            file
+            for file in class_folder.iterdir()
+            if file.suffix.lower() in image_extensions
+        ]
 
         class_counts[class_folder.name] = len(image_files)
 
@@ -90,15 +132,26 @@ def verify_dataset(dataset_path: Path, dataset_name: str):
                 leave=False):
 
             try:
+                with Image.open(image_path) as img:
+                    img.verify()
 
-                img = Image.open(image_path)
-                img.verify()
+                # img = Image.open(image_path)
+                # img.verify()
 
                 total_images += 1
 
-            except Exception:
+            except Exception as e:
+                
+                logger.warning(
+                    f"Corrupted image: {image_path}"
+                    )
+
+                logger.warning(str(e))
 
                 corrupted_images.append(str(image_path))
+            # except Exception:
+
+            #     corrupted_images.append(str(image_path))
 
     statistics[dataset_name]["classes"] = len(class_folders)
     statistics[dataset_name]["images"] = total_images
@@ -118,10 +171,22 @@ verify_dataset(plantdoc_path, "PlantDoc")
 
 statistics["Corrupted Images"] = corrupted_images
 
-with open(manifest_file, "w") as f:
+with open(
+    manifest_file,
+    "w",
+    encoding="utf-8"
+) as f:
+# with open(manifest_file, "w") as f:
     json.dump(statistics, f, indent=4)
 
 logger.info("=" * 60)
 logger.info("Dataset Verification Finished")
 logger.info(f"Manifest Saved : {manifest_file}")
+logger.info("=" * 60)
+logger.info("=" * 60)
+
+logger.info(
+    f"Total Corrupted Images : {len(corrupted_images)}"
+)
+
 logger.info("=" * 60)
