@@ -13,6 +13,7 @@ import argparse
 from dataclasses import replace
 from pathlib import Path
 
+
 from PIL import Image
 
 from common.logger import LoggerManager

@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DiseaseDatabaseSchema",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "required": [
+      "disease_id",
+      "crop_name",
+      "disease_name",
+      "scientific_name",
+      "disease_category",
+      "pathogen_type",
+      "symptoms",
+      "causes",
+      "spread_method",
+      "risk_level",
+      "disease_severity_description",
+      "affected_plant_parts",
+      "weather_conditions_favoring_disease",
+      "growth_stage_affected",
+      "organic_treatment",
+      "chemical_treatment",
+      "recommended_fungicides",
+      "recommended_pesticides",
+      "recommended_fertilizers",
+      "recommended_bio_control_methods",
+      "preventive_measures",
+      "recommended_irrigation_advice",
+      "recovery_time",
+      "expected_yield_loss",
+      "dos",
+      "donts",
+      "government_advisory",
+      "trusted_references",
+      "frequently_asked_questions",
+      "farmer_tips"
+    ],
+    "properties": {
+      "disease_id": { "type": "string" },
+      "crop_name": { "type": "string" },
+      "disease_name": { "type": "string" },
+      "scientific_name": { "type": "string" },
+      "disease_category": { "type": "string" },
+      "pathogen_type": { "type": "string" },
+      "symptoms": { "type": "array", "items": { "type": "string" } },
+      "causes": { "type": "array", "items": { "type": "string" } },
+      "spread_method": { "type": "string" },
+      "risk_level": { "type": "string", "enum": ["Low", "Medium", "High"] },
+      "disease_severity_description": { "type": "string" },
+      "affected_plant_parts": { "type": "array", "items": { "type": "string" } },
+      "weather_conditions_favoring_disease": { "type": "string" },
+      "growth_stage_affected": { "type": "string" },
+      "organic_treatment": { "type": "array", "items": { "type": "string" } },
+      "chemical_treatment": { "type": "array", "items": { "type": "string" } },
+      "recommended_fungicides": { "type": "array", "items": { "type": "string" } },
+      "recommended_pesticides": { "type": "array", "items": { "type": "string" } },
+      "recommended_fertilizers": { "type": "array", "items": { "type": "string" } },
+      "recommended_bio_control_methods": { "type": "array", "items": { "type": "string" } },
+      "preventive_measures": { "type": "array", "items": { "type": "string" } },
+      "recommended_irrigation_advice": { "type": "string" },
+      "recovery_time": { "type": "string" },
+      "expected_yield_loss": { "type": "string" },
+      "dos": { "type": "array", "items": { "type": "string" } },
+      "donts": { "type": "array", "items": { "type": "string" } },
+      "government_advisory": { "type": "string" },
+      "trusted_references": { "type": "array", "items": { "type": "string" } },
+      "frequently_asked_questions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["question", "answer"],
+          "properties": {
+            "question": { "type": "string" },
+            "answer": { "type": "string" }
+          }
+        }
+      },
+      "farmer_tips": { "type": "array", "items": { "type": "string" } }
+    }
+  }
+}

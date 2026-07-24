@@ -75,3 +75,4 @@ psycopg2-binary
 # Utilities
 # ===============================
 requests
+jsonschema

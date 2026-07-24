@@ -42,8 +42,13 @@ class ConfigManager:
     """
 
     def __init__(self, config_dir: str = "configs") -> None:
+        target_path = Path(config_dir)
+        if not target_path.is_absolute():
+            # Resolve relative to package directory (ai_models/disease_detection)
+            pkg_root = Path(__file__).resolve().parent.parent
+            target_path = pkg_root / config_dir
 
-        self.config_dir = Path(config_dir)
+        self.config_dir = target_path
 
         if not self.config_dir.exists():
             raise FileNotFoundError(
