@@ -141,7 +141,10 @@ def main() -> None:
     logger.info(f"Loading trained weights from: {weights_path}")
     
     try:
-        model.load_state_dict(torch.load(weights_path, map_location=config.DEVICE))
+        state_dict = torch.load(weights_path, map_location=config.DEVICE)
+        if any(k.startswith("features.") or k.startswith("classifier.") for k in state_dict.keys()):
+            state_dict = {f"base_model.{k}" if not k.startswith("base_model.") else k: v for k, v in state_dict.items()}
+        model.load_state_dict(state_dict)
         model.to(config.DEVICE)
     except Exception as e:
         logger.error(f"Failed to load weights: {e}")

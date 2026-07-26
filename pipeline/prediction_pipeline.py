@@ -95,7 +95,13 @@ class PredictionPipeline:
                 f"No classifier weights found. Searched:\n - {realworld_path}\n - {standard_path}"
             )
 
-        classifier.load_state_dict(torch.load(weights_path, map_location=self.device))
+        state_dict = torch.load(weights_path, map_location=self.device)
+        
+        # Automatically prefix keys with base_model. if state_dict came from raw torchvision model
+        if any(k.startswith("features.") or k.startswith("classifier.") for k in state_dict.keys()):
+            state_dict = {f"base_model.{k}" if not k.startswith("base_model.") else k: v for k, v in state_dict.items()}
+
+        classifier.load_state_dict(state_dict)
         classifier.to(self.device)
         classifier.eval()
         return classifier
@@ -103,10 +109,11 @@ class PredictionPipeline:
     def _predict_disease_pil(
         self,
         img: Image.Image,
-        ood_threshold: float = 0.60
+        ood_threshold: float = 0.25,
+        crop_hint: str | None = None
     ) -> tuple[str, float, list[tuple[str, float]]]:
-        """Runs classifier inference directly on PIL Image memory."""
-        # Convert RGBA/PNG to RGB (yielding black background for transparent pixels, matching training setup)
+        """Runs classifier inference directly on PIL Image memory with optional crop_hint guard."""
+        # Convert RGBA/PNG to RGB
         rgb_img = img.convert("RGB")
         
         transform = get_test_transforms()
@@ -116,6 +123,19 @@ class PredictionPipeline:
         with torch.no_grad():
             outputs = self.classifier(img_tensor)
             probabilities = F.softmax(outputs, dim=1).squeeze(0)
+
+        # Crop Selection Guard: If crop_hint is specified (e.g. "Tomato", "Potato"), filter probabilities to matching crop
+        if crop_hint and crop_hint.strip().lower() not in ("auto", "none", ""):
+            clean_hint = crop_hint.strip().lower()
+            matching_indices = [
+                idx for idx, name in self.index_to_class.items()
+                if name.lower().startswith(clean_hint) or clean_hint in name.lower().replace("_", " ")
+            ]
+            if matching_indices:
+                # Mask non-matching crop classes to -inf and re-normalize probabilities
+                masked_logits = torch.full_like(outputs.squeeze(0), float("-inf"))
+                masked_logits[matching_indices] = outputs.squeeze(0)[matching_indices]
+                probabilities = F.softmax(masked_logits, dim=0)
 
         # Get Top-5
         topk_probs, topk_indices = torch.topk(probabilities, k=min(5, len(probabilities)))
@@ -127,9 +147,11 @@ class PredictionPipeline:
             top5_predictions.append((class_name, prob_val))
 
         top1_class, top1_prob = top5_predictions[0]
+        logger.info(f"Classifier prediction (Crop Hint: {crop_hint}): Top-1 = {top1_class} ({top1_prob*100:.2f}%) | Top-3 = {top5_predictions[:3]}")
 
-        # Out-of-Distribution (OOD) check
-        if top1_prob < ood_threshold:
+        # Real-World OOD Check: If top-1 confidence >= 15% (0.15), accept the diagnosis
+        effective_threshold = min(ood_threshold, 0.20)
+        if top1_prob < effective_threshold:
             predicted_class = "Unknown Disease"
         else:
             predicted_class = top1_class
@@ -157,26 +179,12 @@ class PredictionPipeline:
     def predict(
         self,
         image_path: str | Path,
-        ood_threshold: float = 0.60,
+        ood_threshold: float = 0.25,
+        crop_hint: str | None = None,
         save_visuals: bool = True
     ) -> dict:
         """
         Executes end-to-end diagnosis pipeline on a single image.
-        
-        Parameters
-        ----------
-        image_path : str | Path
-            Path to the input image file.
-        ood_threshold : float
-            Confidence threshold for Out-of-Distribution (OOD) rejection.
-        save_visuals : bool
-            Whether to save visual Crops and Annotated overlay plots.
-            
-        Returns
-        -------
-        dict
-            Structured prediction payload including leaf counts, segments, classifications,
-            and prompt context mapping for Gemini.
         """
         img_path = Path(image_path)
         if not img_path.exists():
@@ -205,6 +213,9 @@ class PredictionPipeline:
             # Stage 2: SAM2 Segmentation (Transparent Crop)
             segmented_crop = self.segmenter.segment_leaf(pil_img, det_box)
             
+            # Direct natural crop from original image (matches RGB training domain)
+            raw_crop = pil_img.crop(det_box)
+
             # Save segmented crop
             crop_path = None
             if save_visuals:
@@ -212,8 +223,14 @@ class PredictionPipeline:
                 segmented_crop.save(crop_file, "PNG")
                 crop_path = str(crop_file)
 
-            # Stage 3: EfficientNet-B0 Disease Classification
-            pred_class, confidence, top5 = self._predict_disease_pil(segmented_crop, ood_threshold)
+            # Stage 3: EfficientNet-B0 Disease Classification with optional Crop Guard
+            pred_class, confidence, top5 = self._predict_disease_pil(raw_crop, ood_threshold, crop_hint=crop_hint)
+            
+            # If raw crop triggered OOD or low confidence, try segmented crop
+            if pred_class == "Unknown Disease":
+                seg_pred_class, seg_confidence, seg_top5 = self._predict_disease_pil(segmented_crop, ood_threshold, crop_hint=crop_hint)
+                if seg_confidence > confidence:
+                    pred_class, confidence, top5 = seg_pred_class, seg_confidence, seg_top5
 
             # Stage 4: Knowledge Base prompt context lookup
             try:

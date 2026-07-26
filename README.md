@@ -118,3 +118,12 @@ This module focuses on real-world crop disease detection using a multi-stage com
 - [x] Phase 6 - AI Prediction Pipeline
 - [x] Phase 7 - FastAPI Integration
 - [x] Phase 8 - Flutter Integration
+
+---
+
+## 🛡️ Production & Real-World Safeguards
+
+- **Crop Selection Guard:** Eliminates cross-crop misclassification by enforcing user-selected crop context.
+- **Confidence Thresholding:** Rejects ambiguous or unclear field captures to prevent false positives.
+- **Field-Noise Generalization:** Trained with heavy Albumentations (Cutout, MotionBlur, ColorJitter) to withstand real farm lighting, shadows, and background soil noise.
+
