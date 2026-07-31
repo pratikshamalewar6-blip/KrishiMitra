@@ -81,60 +81,207 @@ class MergedDiseaseDataset(Dataset):
 
     def _load_master_mapping(self) -> Dict[str, int]:
         """Loads the master class mapping from outputs."""
-        mapping_path = Path("outputs/classification/class_mapping.json")
-        if mapping_path.exists():
-            try:
-                with open(mapping_path, "r", encoding="utf-8") as f:
-                    return json.load(f)
-            except Exception as e:
-                logger.warning(f"Failed to load class_mapping.json: {e}. Building fallback.")
+        mapping_paths = [
+            Path("outputs/classification/class_mapping.json"),
+            Path("ai_models/disease_detection/outputs/classification/class_mapping.json")
+        ]
+        for mapping_path in mapping_paths:
+            if mapping_path.exists():
+                try:
+                    with open(mapping_path, "r", encoding="utf-8") as f:
+                        return json.load(f)
+                except Exception as e:
+                    logger.warning(f"Failed to load class_mapping.json from {mapping_path}: {e}")
         
         # Fallback dictionary matching standard 38 classes if file is missing
-        logger.warning("Class mapping file not found. Falling back to default list.")
-        raise FileNotFoundError(f"Master class mapping file not found at: {mapping_path}")
+        logger.warning("Class mapping file not found in candidate paths.")
+        raise FileNotFoundError("Master class mapping file (class_mapping.json) not found.")
+
+    def _load_plantdoc_mapping(self) -> Dict[str, str]:
+        """Loads PlantDoc folder to Master Class Name mapping."""
+        mapping_paths = [
+            Path("outputs/classification/plantdoc_mapping.json"),
+            Path("ai_models/disease_detection/outputs/classification/plantdoc_mapping.json")
+        ]
+        plantdoc_map: Dict[str, str] = {}
+        for mapping_path in mapping_paths:
+            if mapping_path.exists():
+                try:
+                    with open(mapping_path, "r", encoding="utf-8") as f:
+                        raw_map = json.load(f)
+                    for k, v in raw_map.items():
+                        plantdoc_map[k] = v
+                        plantdoc_map[k.replace(" ", "_")] = v
+                    break
+                except Exception as e:
+                    logger.warning(f"Failed to load plantdoc_mapping.json from {mapping_path}: {e}")
+        
+        # Fallback dictionary for 28 PlantDoc classes
+        fallback = {
+            "Cherry_leaf": "Cherry_(including_sour)___healthy",
+            "Peach_leaf": "Peach___healthy",
+            "Corn_leaf_blight": "Corn_(maize)___Northern_Leaf_Blight",
+            "Apple_rust_leaf": "Apple___Cedar_apple_rust",
+            "Potato_leaf_late_blight": "Potato___Late_blight",
+            "Strawberry_leaf": "Strawberry___healthy",
+            "Corn_rust_leaf": "Corn_(maize)___Common_rust_",
+            "Tomato_leaf_late_blight": "Tomato___Late_blight",
+            "Tomato_mold_leaf": "Tomato___Leaf_Mold",
+            "Potato_leaf_early_blight": "Potato___Early_blight",
+            "Apple_leaf": "Apple___healthy",
+            "Tomato_leaf_yellow_virus": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+            "Blueberry_leaf": "Blueberry___healthy",
+            "Tomato_leaf_mosaic_virus": "Tomato___Tomato_mosaic_virus",
+            "Raspberry_leaf": "Raspberry___healthy",
+            "Tomato_leaf_bacterial_spot": "Tomato___Bacterial_spot",
+            "Squash_Powdery_mildew_leaf": "Squash___Powdery_mildew",
+            "grape_leaf": "Grape___healthy",
+            "Corn_Gray_leaf_spot": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+            "Tomato_Early_blight_leaf": "Tomato___Early_blight",
+            "Apple_Scab_Leaf": "Apple___Apple_scab",
+            "Tomato_Septoria_leaf_spot": "Tomato___Septoria_leaf_spot",
+            "Tomato_leaf": "Tomato___healthy",
+            "Soyabean_leaf": "Soybean___healthy",
+            "Bell_pepper_leaf_spot": "Pepper,_bell___Bacterial_spot",
+            "Bell_pepper_leaf": "Pepper,_bell___healthy",
+            "grape_leaf_black_rot": "Grape___Black_rot",
+            "Potato_leaf": "Potato___healthy",
+            "Tomato_two_spotted_spider_mites_leaf": "Tomato___Spider_mites Two-spotted_spider_mite"
+        }
+        for k, v in fallback.items():
+            if k not in plantdoc_map:
+                plantdoc_map[k] = v
+        return plantdoc_map
 
     def _load_plantvillage_samples(self) -> List[DatasetSample]:
-        """Loads PlantVillage samples from split CSV."""
-        csv_path = Path("outputs/splits") / f"plantvillage_{self.split}.csv"
-        if not csv_path.exists():
-            logger.error(f"PlantVillage split file not found: {csv_path}")
-            return []
-
-        df = pd.read_csv(csv_path)
+        """Loads PlantVillage samples from split CSV or falls back to raw directory."""
+        csv_candidates = [
+            Path("outputs/splits") / f"plantvillage_{self.split}.csv",
+            Path("ai_models/disease_detection/outputs/splits") / f"plantvillage_{self.split}.csv"
+        ]
+        csv_path = next((c for c in csv_candidates if c.exists()), None)
+        
         samples = []
-        for row in df.itertuples():
-            samples.append(DatasetSample(
-                image_path=row.image_path,
-                class_name=row.class_name,
-                dataset="plantvillage"
-            ))
+        if csv_path is not None:
+            df = pd.read_csv(csv_path)
+            for row in df.itertuples():
+                raw_rel = str(row.image_path).replace("\\", "/")
+                filename = Path(raw_rel).name
+                candidate_paths = [
+                    Path(raw_rel),
+                    Path("ai_models/disease_detection") / raw_rel,
+                    Path("datasets/raw/plantvillage/color") / row.class_name / filename,
+                    Path("ai_models/disease_detection/datasets/raw/plantvillage/color") / row.class_name / filename,
+                ]
+                img_p = next((p for p in candidate_paths if p.exists()), None)
+                if img_p is not None:
+                    samples.append(DatasetSample(
+                        image_path=str(img_p),
+                        class_name=row.class_name,
+                        dataset="plantvillage"
+                    ))
+        
+        # Direct folder scan fallback if CSV missing or empty
+        if not samples:
+            pv_dirs = [
+                Path("datasets/raw/plantvillage/color"),
+                Path("ai_models/disease_detection/datasets/raw/plantvillage/color")
+            ]
+            pv_dir = next((d for d in pv_dirs if d.exists()), None)
+            if pv_dir is not None:
+                logger.info(f"PlantVillage CSV not found/empty. Scanning raw directory: {pv_dir}")
+                for class_dir in pv_dir.iterdir():
+                    if class_dir.is_dir() and class_dir.name in self.class_to_index:
+                        for ext in ("*.png", "*.jpg", "*.jpeg", "*.PNG", "*.JPG", "*.JPEG"):
+                            for img_file in class_dir.glob(ext):
+                                samples.append(DatasetSample(
+                                    image_path=str(img_file),
+                                    class_name=class_dir.name,
+                                    dataset="plantvillage"
+                                ))
         return samples
 
     def _load_plantdoc_samples(self) -> List[DatasetSample]:
-        """Loads processed PlantDoc segmented crops dynamically from directory."""
-        # Map validation split to val or test folder
-        dir_split = "val" if self.split in ["val", "test"] else "train"
-        plantdoc_dir = Path("datasets/processed/plantdoc_classification") / dir_split
-
-        if not plantdoc_dir.exists():
-            logger.warning(f"Segmented PlantDoc directory not found at: {plantdoc_dir}. Preprocessing skipped?")
-            return []
+        """Loads PlantDoc segmented/raw crops dynamically, mapping class names to 38 master classes."""
+        plantdoc_map = self._load_plantdoc_mapping()
+        
+        csv_candidates = [
+            Path("outputs/splits") / f"plantdoc_classification_{self.split}.csv",
+            Path("ai_models/disease_detection/outputs/splits") / f"plantdoc_classification_{self.split}.csv"
+        ]
+        csv_path = next((c for c in csv_candidates if c.exists()), None)
 
         samples = []
-        for class_dir in plantdoc_dir.iterdir():
-            if class_dir.is_dir():
-                class_name = class_dir.name
-                # Verify that the class exists in our master mapping
-                if class_name not in self.class_to_index:
-                    logger.warning(f"PlantDoc class '{class_name}' is not in the 38-class master mapping. Skipping.")
-                    continue
-                
-                for img_file in class_dir.glob("*.png"):
-                    samples.append(DatasetSample(
-                        image_path=str(img_file),
-                        class_name=class_name,
-                        dataset="plantdoc_classification"
-                    ))
+        if csv_path is not None:
+            logger.info(f"Loading PlantDoc samples for split '{self.split}' from CSV: {csv_path}")
+            df = pd.read_csv(csv_path)
+            for row in df.itertuples():
+                raw_rel = str(row.image_path).replace("\\", "/")
+                filename = Path(raw_rel).name
+                raw_class_name = row.class_name
+                master_class = plantdoc_map.get(
+                    raw_class_name,
+                    plantdoc_map.get(raw_class_name.replace("_", " "), raw_class_name)
+                )
+
+                if master_class in self.class_to_index:
+                    candidate_paths = [
+                        Path(raw_rel),
+                        Path("ai_models/disease_detection") / raw_rel,
+                        Path("datasets/raw/plantdoc_classification") / self.split / raw_class_name / filename,
+                        Path("ai_models/disease_detection/datasets/raw/plantdoc_classification") / self.split / raw_class_name / filename,
+                        Path("datasets/processed/plantdoc_classification") / self.split / raw_class_name / filename,
+                        Path("ai_models/disease_detection/datasets/processed/plantdoc_classification") / self.split / raw_class_name / filename,
+                        Path("datasets/raw/plantdoc_classification") / raw_class_name / filename,
+                        Path("ai_models/disease_detection/datasets/raw/plantdoc_classification") / raw_class_name / filename,
+                        Path("datasets/processed/plantdoc_classification") / raw_class_name / filename,
+                        Path("ai_models/disease_detection/datasets/processed/plantdoc_classification") / raw_class_name / filename,
+                    ]
+                    img_p = next((p for p in candidate_paths if p.exists()), None)
+                    if img_p is not None:
+                        samples.append(DatasetSample(
+                            image_path=str(img_p),
+                            class_name=master_class,
+                            dataset="plantdoc_classification"
+                        ))
+
+        if not samples:
+            dir_split = "val" if self.split in ["val", "test"] else "train"
+            candidate_dirs = [
+                Path("datasets/raw/plantdoc_classification") / dir_split,
+                Path("ai_models/disease_detection/datasets/raw/plantdoc_classification") / dir_split,
+                Path("datasets/processed/plantdoc_classification") / dir_split,
+                Path("ai_models/disease_detection/datasets/processed/plantdoc_classification") / dir_split,
+                Path("datasets/raw/plantdoc_classification"),
+                Path("ai_models/disease_detection/datasets/raw/plantdoc_classification"),
+                Path("datasets/processed/plantdoc_classification"),
+                Path("ai_models/disease_detection/datasets/processed/plantdoc_classification"),
+            ]
+
+            scanned_paths = set()
+            for cd in candidate_dirs:
+                if cd.exists():
+                    for class_dir in cd.iterdir():
+                        if class_dir.is_dir() and class_dir.name not in ["train", "val", "test", "__pycache__"]:
+                            raw_class_name = class_dir.name
+                            master_class = plantdoc_map.get(
+                                raw_class_name,
+                                plantdoc_map.get(raw_class_name.replace("_", " "), raw_class_name)
+                            )
+                            if master_class not in self.class_to_index:
+                                continue
+
+                            for ext in ("*.png", "*.jpg", "*.jpeg", "*.PNG", "*.JPG", "*.JPEG"):
+                                for img_file in class_dir.glob(ext):
+                                    if str(img_file) not in scanned_paths:
+                                        scanned_paths.add(str(img_file))
+                                        samples.append(DatasetSample(
+                                            image_path=str(img_file),
+                                            class_name=master_class,
+                                            dataset="plantdoc_classification"
+                                        ))
+
+        logger.info(f"Loaded {len(samples)} PlantDoc samples mapped to master 38 classes for split '{self.split}'.")
         return samples
 
     def _merge_datasets(self) -> List[DatasetSample]:

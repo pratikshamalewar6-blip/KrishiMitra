@@ -13,9 +13,17 @@ Author:
 
 from __future__ import annotations
 
+import sys
 import shutil
 import zipfile
 from pathlib import Path
+
+# Automatically add parent directory (disease_detection) to sys.path
+script_dir = Path(__file__).resolve().parent
+disease_detection_dir = script_dir.parent
+if str(disease_detection_dir) not in sys.path:
+    sys.path.insert(0, str(disease_detection_dir))
+
 from common.logger import LoggerManager
 
 logger = LoggerManager.get_logger("ZipDiseaseClassifier")
@@ -98,9 +106,21 @@ def zip_codebase() -> Path | None:
             splits_dir = Path("outputs/splits")
             if splits_dir.exists():
                 for path in splits_dir.glob("*.csv"):
-                    # Add splits under outputs/splits
                     zipf.write(path, Path("outputs/splits") / path.name)
                     count += 1
+
+            # Explicitly include classification mapping JSON files
+            classification_dir = Path("outputs/classification")
+            if classification_dir.exists():
+                for path in classification_dir.glob("*.json"):
+                    zipf.write(path, Path("outputs/classification") / path.name)
+                    count += 1
+                    
+            # Explicitly include verify_merged_dataset.py if present at root
+            verify_script = Path("verify_merged_dataset.py")
+            if verify_script.exists():
+                zipf.write(verify_script, verify_script)
+                count += 1
                     
         file_size_kb = output_zip_path.stat().st_size / 1024
         logger.info(f"Successfully zipped {count} code files to '{output_zip_path}' ({file_size_kb:.2f} KB)")
@@ -111,17 +131,21 @@ def zip_codebase() -> Path | None:
 
 
 def zip_plantdoc_crops() -> Path | None:
-    source_dir = Path("datasets/processed/plantdoc_classification")
     output_zip_path = Path("outputs/plantdoc_crops.zip")
     output_zip_path.parent.mkdir(parents=True, exist_ok=True)
     
-    if not source_dir.exists():
-        logger.warning(f"Segmented PlantDoc directory '{source_dir}' does not exist. Skipping crops zipping.")
+    candidate_sources = [
+        Path("datasets/processed/plantdoc_classification"),
+        Path("datasets/raw/plantdoc_classification")
+    ]
+    
+    valid_sources = [d for d in candidate_sources if d.exists()]
+    if not valid_sources:
+        logger.warning("No PlantDoc directory found. Skipping crops zipping.")
         return None
         
-    logger.info(f"Zipping segmented crops from '{source_dir}' to '{output_zip_path}'...")
+    logger.info(f"Zipping segmented crops from {valid_sources} to '{output_zip_path}'...")
     try:
-        # Delete old zip if exists
         if output_zip_path.exists():
             try:
                 output_zip_path.unlink()
@@ -130,13 +154,13 @@ def zip_plantdoc_crops() -> Path | None:
                 
         with zipfile.ZipFile(output_zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
             count = 0
-            for path in source_dir.rglob("*"):
-                if path.is_file():
-                    # Write relative to datasets/processed/plantdoc_classification
-                    arcname = path.relative_to(source_dir)
-                    zipf.write(path, Path("datasets/processed/plantdoc_classification") / arcname)
-                    count += 1
-                    
+            for src_dir in valid_sources:
+                for path in src_dir.rglob("*"):
+                    if path.is_file():
+                        arcname = path.relative_to(src_dir)
+                        zipf.write(path, src_dir / arcname)
+                        count += 1
+                        
         file_size_mb = output_zip_path.stat().st_size / (1024 * 1024)
         logger.info(f"Successfully zipped {count} crop images to '{output_zip_path}' ({file_size_mb:.2f} MB)")
         return output_zip_path
