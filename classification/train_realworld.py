@@ -166,7 +166,7 @@ def main() -> None:
     # STAGE 1: Train Head Only (Backbone Frozen)
     # ==========================================================
     logger.info("==================================================")
-    logger.info(f"STAGE 1: Training Head Only for {args.stage1-epochs} Epochs")
+    logger.info(f"STAGE 1: Training Head Only for {args.stage1_epochs} Epochs")
     logger.info("==================================================")
 
     # Freeze entire backbone
