@@ -1,0 +1,1622 @@
+image_path,class_name,dataset
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (8)_aug_p2_55.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (10)_aug_p0_9.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (19).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (2)_aug_p4_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (41)_aug_p4_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (86)_aug_p1_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (38).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (67)_aug_p0_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (1)_aug_p0_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (18).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (66)_aug_p4_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (19)_aug_p0_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (84)_aug_p0_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (30)_aug_p1_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (35)_aug_p0_11.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (19)_aug_p3_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (69)_aug_p2_61.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (44)_aug_p3_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (7)_aug_p0_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (60)_aug_p1_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (51)_aug_p2_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (121).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (10)_aug_p4_16.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (77).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (73)_aug_p1_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (12)_aug_p4_17.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (82).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (90)_aug_p2_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (49)_aug_p3_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (19)_aug_p1_60.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (26)_aug_p0_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Peach leaf\Peach leaf (53)_aug_p1_13.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (5)_aug_p4_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (124)_aug_p4_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (15)_aug_p0_62.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Early blight leaf\Tomato Early blight leaf (2)_aug_p3_21.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (3)_aug_p2_3.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (95).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (44)_aug_p1_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (38).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (62)_aug_p4_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (5)_aug_p0_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (36)_aug_p1_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Early blight leaf\Tomato Early blight leaf (9)_aug_p3_50.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn rust leaf\Corn rust leaf (20)_aug_p2_47.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf\Bell_pepper leaf (19)_aug_p0_33.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (51)_aug_p4_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (25).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (23)_aug_p4_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (11).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (47)_aug_p4_12.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (28).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (48)_aug_p4_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (83).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (112)_aug_p1_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (59)_aug_p3_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (80)_aug_p2_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (92)_aug_p3_47.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (68)_aug_p3_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Cherry leaf\Cherry leaf (42)_aug_p3_39.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (45)_aug_p4_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (34)_aug_p0_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (102)_aug_p3_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (33)_aug_p2_49.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (62).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (20)_aug_p4_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (28)_aug_p1_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (70)_aug_p4_47.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (9)_aug_p2_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple Scab Leaf\Apple Scab Leaf (9)_aug_p1_8.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (4)_aug_p4_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (16)_aug_p0_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (65)_aug_p1_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Early blight leaf\Tomato Early blight leaf (35)_aug_p4_38.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (19)_aug_p4_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (10)_aug_p4_24.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Soyabean leaf\Soyabean leaf (21)_aug_p3_9.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (12).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (27)_aug_p0_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (49)_aug_p0_11.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (101)_aug_p3_6.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (9)_aug_p2_50.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (41)_aug_p4_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (93).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (30)_aug_p3_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (87)_aug_p1_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (41).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (4).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (40)_aug_p1_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple Scab Leaf\Apple Scab Leaf (19)_aug_p4_30.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (57)_aug_p4_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (11).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (27)_aug_p3_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (31)_aug_p3_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (69)_aug_p2_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (2)_aug_p0_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf\Bell_pepper leaf (43)_aug_p0_8.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (36)_aug_p3_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (37)_aug_p0_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (48)_aug_p0_45.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (4)_aug_p0_29.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (177)_aug_p3_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Raspberry leaf\Raspberry leaf (27)_aug_p0_34.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (67)_aug_p1_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (1).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (18)_aug_p2_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (37)_aug_p2_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Early blight leaf\Tomato Early blight leaf (24).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (34)_aug_p1_61.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (35)_aug_p2_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (33)_aug_p2_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (5)_aug_p4_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (33)_aug_p1_45.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple rust leaf\Apple rust leaf (39)_aug_p0_43.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (78)_aug_p3_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (57).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (53)_aug_p2_41.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (68)_aug_p1_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (10)_aug_p1_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (55).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (60).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (7)_aug_p2_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf black rot\grape leaf black rot (46)_aug_p0_34.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (66)_aug_p1_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (5)_aug_p0_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (34)_aug_p3_45.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (14).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (12)_aug_p3_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Blueberry leaf\Blueberry leaf (30)_aug_p1_28.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn leaf blight\Corn leaf blight (68)_aug_p3_16.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (75)_aug_p3_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (25).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (78)_aug_p2_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (19).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (144).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (4)_aug_p1_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (54)_aug_p0_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (22)_aug_p2_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (58)_aug_p0_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (18)_aug_p4_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (59)_aug_p4_23.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (84).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (52)_aug_p4_14.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (79)_aug_p2_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (3)_aug_p2_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (67)_aug_p1_62.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (60)_aug_p0_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (30)_aug_p0_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (7)_aug_p4_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (17)_aug_p4_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (6)_aug_p4_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (72)_aug_p3_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn rust leaf\Corn rust leaf (28)_aug_p0_34.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (55)_aug_p3_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (3)_aug_p4_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (55).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (95).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (89).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (44)_aug_p2_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (45)_aug_p3_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (36)_aug_p3_37.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Raspberry leaf\Raspberry leaf (5).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (49)_aug_p4_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (10)_aug_p2_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (75)_aug_p4_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (32).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (70)_aug_p0_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (23)_aug_p0_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (6)_aug_p2_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (30)_aug_p1_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (45)_aug_p0_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple rust leaf\Apple rust leaf (46)_aug_p0_11.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (57)_aug_p3_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf bacterial spot\Tomato leaf bacterial spot (10).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (50)_aug_p3_16.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (10).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (3)_aug_p1_8.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Soyabean leaf\Soyabean leaf (34)_aug_p4_35.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Raspberry leaf\Raspberry leaf (18).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf spot\Bell_pepper leaf spot (6)_aug_p2_40.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (1)_aug_p1_37.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf late blight\Potato leaf late blight (88)_aug_p2_9.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (3)_aug_p1_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (78).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (43)_aug_p2_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (71)_aug_p0_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (38)_aug_p2_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (11)_aug_p3_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (28)_aug_p2_69.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (1)_aug_p1_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (41)_aug_p2_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (51).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (132)_aug_p1_27.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (118)_aug_p3_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (68).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (58)_aug_p1_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (28)_aug_p1_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (10)_aug_p0_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (20)_aug_p1_58.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf mosaic virus\Tomato leaf mosaic virus (17)_aug_p2_28.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (56)_aug_p4_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (66)_aug_p3_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (44)_aug_p1_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf black rot\grape leaf black rot (30).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (17).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (7).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (12).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (7)_aug_p2_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (36)_aug_p4_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (2)_aug_p1_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (35)_aug_p4_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (21)_aug_p1_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (126)_aug_p0_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (86)_aug_p2_10.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (100)_aug_p3_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (46)_aug_p4_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (47)_aug_p2_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (1)_aug_p2_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf black rot\grape leaf black rot (20)_aug_p3_53.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (4).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (74).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (177)_aug_p2_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (46)_aug_p3_9.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (92).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (33)_aug_p2_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (78)_aug_p3_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (68)_aug_p4_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (99)_aug_p4_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (38)_aug_p3_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (6)_aug_p1_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (40)_aug_p2_56.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf black rot\grape leaf black rot (24)_aug_p0_25.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (46)_aug_p2_9.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf bacterial spot\Tomato leaf bacterial spot (35)_aug_p0_46.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf late blight\Potato leaf late blight (83)_aug_p1_47.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf late blight\Potato leaf late blight (36)_aug_p4_29.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Septoria leaf spot\Tomato Septoria leaf spot (64).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf spot\Bell_pepper leaf spot (42)_aug_p1_48.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn Gray leaf spot\Corn Gray leaf spot (18)_aug_p4_38.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (44)_aug_p4_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (19).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (22)_aug_p0_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (22)_aug_p0_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (15)_aug_p3_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (77)_aug_p2_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (20)_aug_p1_22.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (23)_aug_p2_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (9).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (5)_aug_p1_67.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (50)_aug_p4_45.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (90)_aug_p4_1.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (82)_aug_p0_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf black rot\grape leaf black rot (26)_aug_p1_3.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (36)_aug_p1_14.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (24)_aug_p4_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Septoria leaf spot\Tomato Septoria leaf spot (21)_aug_p0_38.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (14).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (45)_aug_p1_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (59)_aug_p4_11.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (33).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (122).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn Gray leaf spot\Corn Gray leaf spot (25)_aug_p1_9.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (50).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (93)_aug_p2_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Raspberry leaf\Raspberry leaf (4)_aug_p3_30.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (2)_aug_p1_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (36)_aug_p2_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn leaf blight\Corn leaf blight (31).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (2)_aug_p4_42.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (23)_aug_p2_7.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (75)_aug_p3_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (46)_aug_p3_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (117)_aug_p0_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (89).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (8).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (16)_aug_p4_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (34)_aug_p4_62.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (19)_aug_p4_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (5)_aug_p0_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (51)_aug_p1_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (15)_aug_p3_16.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (55).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (48)_aug_p0_7.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf late blight\Potato leaf late blight (49)_aug_p1_37.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (108)_aug_p3_19.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (33).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (45).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (71).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf\grape leaf (56)_aug_p0_19.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Peach leaf\Peach leaf (58).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (42).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (85).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (80)_aug_p4_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Peach leaf\Peach leaf (38)_aug_p1_11.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf late blight\Potato leaf late blight (44)_aug_p0_48.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (29)_aug_p1_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (84)_aug_p0_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (1)_aug_p1_16.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (111)_aug_p4_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf\Tomato leaf (42)_aug_p0_10.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (97).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (17)_aug_p3_33.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Squash Powdery mildew leaf\Squash Powdery mildew leaf (121)_aug_p4_2.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (5)_aug_p1_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (79)_aug_p1_1.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (36)_aug_p3_65.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (26)_aug_p3_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (62)_aug_p0_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf\Tomato leaf (27).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (25)_aug_p4_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (25)_aug_p0_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (40)_aug_p0_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (40)_aug_p3_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (55)_aug_p4_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (14)_aug_p3_16.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (55)_aug_p3_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (5).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (20)_aug_p1_24.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Early blight leaf\Tomato Early blight leaf (45)_aug_p2_51.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn leaf blight\Corn leaf blight (47)_aug_p3_23.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (172)_aug_p2_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (27)_aug_p0_58.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (54)_aug_p2_45.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (87).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (28).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (61)_aug_p2_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (47)_aug_p3_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (6)_aug_p3_7.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (5)_aug_p2_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf bacterial spot\Tomato leaf bacterial spot (45).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf bacterial spot\Tomato leaf bacterial spot (87).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (46)_aug_p2_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (30).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (32)_aug_p4_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (31)_aug_p4_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (97)_aug_p1_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (23)_aug_p4_1.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple rust leaf\Apple rust leaf (19)_aug_p0_63.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf mosaic virus\Tomato leaf mosaic virus (37)_aug_p0_64.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (20)_aug_p4_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (35)_aug_p1_64.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (85)_aug_p0_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn rust leaf\Corn rust leaf (94)_aug_p0_45.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (10)_aug_p0_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (48)_aug_p3_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (36)_aug_p1_30.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (38)_aug_p3_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (18)_aug_p4_8.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (95)_aug_p2_3.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (84)_aug_p3_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (37)_aug_p3_22.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf spot\Bell_pepper leaf spot (10)_aug_p3_47.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (2).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (45)_aug_p0_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (56)_aug_p2_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (14)_aug_p3_32.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (6)_aug_p3_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (14)_aug_p3_42.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf\Tomato leaf (32).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (23)_aug_p0_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (26).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (103).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (54).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (32).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (47)_aug_p0_16.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (41)_aug_p1_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (43)_aug_p2_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (4).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (13)_aug_p2_62.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (1)_aug_p1_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (14)_aug_p3_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (46)_aug_p3_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (39)_aug_p0_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn rust leaf\Corn rust leaf (12)_aug_p2_3.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (24)_aug_p3_8.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (31)_aug_p0_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (51)_aug_p1_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (19)_aug_p4_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (48).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (21)_aug_p0_10.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (16)_aug_p2_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (60)_aug_p3_39.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (28)_aug_p4_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (27).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (32)_aug_p2_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (49)_aug_p0_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (23)_aug_p4_60.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (43).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (27)_aug_p2_27.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (42)_aug_p0_61.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (37)_aug_p3_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (12)_aug_p1_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Peach leaf\Peach leaf (45).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (8)_aug_p4_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (12)_aug_p1_16.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (11)_aug_p3_60.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (66)_aug_p2_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (47)_aug_p2_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (6)_aug_p3_23.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple Scab Leaf\Apple Scab Leaf (13)_aug_p4_1.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf bacterial spot\Tomato leaf bacterial spot (79)_aug_p0_41.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (24)_aug_p0_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Soyabean leaf\Soyabean leaf (26).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Raspberry leaf\Raspberry leaf (101)_aug_p0_19.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (73)_aug_p0_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (33)_aug_p1_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (98)_aug_p4_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf\grape leaf (14)_aug_p0_48.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (75).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (78)_aug_p4_49.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (3).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (60)_aug_p1_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf late blight\Potato leaf late blight (33)_aug_p2_22.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (104).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (81).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (6)_aug_p1_43.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (32)_aug_p2_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (18)_aug_p1_65.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (31)_aug_p4_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (16)_aug_p3_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (77)_aug_p1_47.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (95)_aug_p0_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (33)_aug_p2_39.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (9).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (82).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (74).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Soyabean leaf\Soyabean leaf (20)_aug_p1_27.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (22)_aug_p1_28.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (9).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple Scab Leaf\Apple Scab Leaf (55).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (26)_aug_p1_29.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (68)_aug_p1_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf\Tomato leaf (35)_aug_p1_60.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (23)_aug_p4_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (46)_aug_p1_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (71).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (27)_aug_p1_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (14).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (27)_aug_p0_52.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (35)_aug_p2_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (53).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Peach leaf\Peach leaf (42)_aug_p1_12.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (81).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (136).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (15)_aug_p3_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (39)_aug_p0_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf bacterial spot\Tomato leaf bacterial spot (78).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (27)_aug_p0_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf yellow virus\Tomato leaf yellow virus (39)_aug_p0_16.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (62)_aug_p1_54.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Blueberry leaf\Blueberry leaf (33)_aug_p1_3.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (48)_aug_p0_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (28)_aug_p2_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (80)_aug_p1_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (43)_aug_p3_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (11)_aug_p4_54.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Septoria leaf spot\Tomato Septoria leaf spot (111).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (54)_aug_p3_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (37)_aug_p0_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (101)_aug_p2_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (11)_aug_p2_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf yellow virus\Tomato leaf yellow virus (51)_aug_p3_19.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Peach leaf\Peach leaf (25)_aug_p1_34.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (24)_aug_p2_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (22)_aug_p1_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (61)_aug_p2_61.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (105)_aug_p0_16.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (24)_aug_p0_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (10)_aug_p3_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (48)_aug_p2_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (1).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (52)_aug_p0_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (39)_aug_p1_60.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (79).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (34)_aug_p3_58.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (47)_aug_p4_23.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Squash Powdery mildew leaf\Squash Powdery mildew leaf (62)_aug_p0_16.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (29).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (11).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (21)_aug_p3_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (26)_aug_p1_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (49)_aug_p3_66.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (5)_aug_p1_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (20)_aug_p2_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (5)_aug_p3_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (23)_aug_p1_51.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (17)_aug_p3_58.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (49).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (103).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (45)_aug_p1_8.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (12)_aug_p3_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Soyabean leaf\Soyabean leaf (49)_aug_p0_45.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (25)_aug_p3_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (24)_aug_p2_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (45)_aug_p0_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (63).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (32)_aug_p3_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (54)_aug_p1_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (22)_aug_p0_56.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (104)_aug_p3_8.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (10).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (11).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (43)_aug_p4_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (12)_aug_p1_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (36)_aug_p0_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (58)_aug_p1_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (12).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (2)_aug_p0_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (84).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (9)_aug_p4_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf bacterial spot\Tomato leaf bacterial spot (62).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (17)_aug_p2_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (106)_aug_p0_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (13)_aug_p3_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (62)_aug_p1_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (23).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (66).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (53).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (47)_aug_p0_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (38)_aug_p4_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (104).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (45)_aug_p4_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (72)_aug_p0_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (35).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (12)_aug_p4_39.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (5)_aug_p2_61.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf\Tomato leaf (20)_aug_p0_37.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (68).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (21)_aug_p0_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (22)_aug_p1_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (35)_aug_p1_56.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf mosaic virus\Tomato leaf mosaic virus (28)_aug_p0_17.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (46)_aug_p0_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (30).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (72)_aug_p4_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf spot\Bell_pepper leaf spot (33)_aug_p0_42.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (8).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (9)_aug_p4_16.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (21)_aug_p0_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (3)_aug_p4_43.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (35)_aug_p4_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (46)_aug_p4_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (75).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf mosaic virus\Tomato leaf mosaic virus (11)_aug_p4_1.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (16).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (34)_aug_p3_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (49).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (102)_aug_p3_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (20)_aug_p2_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (25)_aug_p2_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (43)_aug_p3_58.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (61)_aug_p0_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf\grape leaf (2)_aug_p1_54.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf\Bell_pepper leaf (22)_aug_p2_36.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (40)_aug_p0_1.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (82).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (86)_aug_p0_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Peach leaf\Peach leaf (18).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (136)_aug_p0_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (22)_aug_p3_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (3)_aug_p1_28.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (44)_aug_p1_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (33)_aug_p0_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (36)_aug_p0_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple Scab Leaf\Apple Scab Leaf (16).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (10).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (55)_aug_p4_47.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (22).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (12)_aug_p4_53.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (46)_aug_p2_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (27)_aug_p2_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (61)_aug_p0_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (98).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (25)_aug_p3_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (73).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (99)_aug_p2_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (23).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple rust leaf\Apple rust leaf (47)_aug_p2_12.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (69).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (47)_aug_p1_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (123)_aug_p1_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (79)_aug_p3_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (50)_aug_p4_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (31)_aug_p0_66.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (56)_aug_p2_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (11)_aug_p0_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (95)_aug_p4_8.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf yellow virus\Tomato leaf yellow virus (46)_aug_p1_57.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (17)_aug_p2_5.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (71).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (63)_aug_p0_1.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (42).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf spot\Bell_pepper leaf spot (37)_aug_p2_38.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (50)_aug_p4_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (23).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (50)_aug_p4_30.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (54).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (33)_aug_p2_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (78).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (51)_aug_p0_57.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn rust leaf\Corn rust leaf (41)_aug_p0_57.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (69)_aug_p2_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (45)_aug_p2_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (64)_aug_p3_23.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (102)_aug_p4_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (2)_aug_p1_23.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Soyabean leaf\Soyabean leaf (40)_aug_p0_67.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (21)_aug_p1_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (48)_aug_p0_23.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (74)_aug_p1_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (30)_aug_p0_50.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (3)_aug_p4_58.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (6)_aug_p0_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (21)_aug_p2_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (58).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (26)_aug_p0_69.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (37).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (5)_aug_p3_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (39)_aug_p4_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (79)_aug_p2_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (9)_aug_p3_50.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (30)_aug_p3_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (143)_aug_p2_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (52)_aug_p2_64.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf yellow virus\Tomato leaf yellow virus (44)_aug_p1_32.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (58)_aug_p2_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (54)_aug_p3_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (42).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (15)_aug_p0_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (24)_aug_p3_37.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (45).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (72)_aug_p2_53.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (52).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (1)_aug_p2_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (37)_aug_p3_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (157).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn Gray leaf spot\Corn Gray leaf spot (41)_aug_p2_35.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf spot\Bell_pepper leaf spot (61)_aug_p4_44.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (26)_aug_p4_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (22).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (29)_aug_p2_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (17)_aug_p3_16.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (100)_aug_p2_12.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Soyabean leaf\Soyabean leaf (15)_aug_p4_46.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (29)_aug_p4_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Cherry leaf\Cherry leaf (32)_aug_p1_43.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple rust leaf\Apple rust leaf (16).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (103).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (45)_aug_p3_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (11)_aug_p2_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (70)_aug_p3_11.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Raspberry leaf\Raspberry leaf (91)_aug_p4_24.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (35)_aug_p1_64.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (57)_aug_p3_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (13)_aug_p1_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (25)_aug_p4_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (32)_aug_p3_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (28)_aug_p2_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (42)_aug_p1_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Raspberry leaf\Raspberry leaf (61)_aug_p2_51.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (8)_aug_p2_67.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (123)_aug_p3_1.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (21).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (49)_aug_p1_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (14)_aug_p0_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (12)_aug_p1_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn leaf blight\Corn leaf blight (31)_aug_p4_12.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn rust leaf\Corn rust leaf (22)_aug_p1_35.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (47)_aug_p2_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (76).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (39)_aug_p1_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (9)_aug_p0_25.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (8)_aug_p4_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (22)_aug_p2_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (13)_aug_p1_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (99)_aug_p0_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple Scab Leaf\Apple Scab Leaf (11)_aug_p1_30.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (55)_aug_p0_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (45)_aug_p0_1.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (23)_aug_p0_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (66)_aug_p3_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (50)_aug_p3_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn rust leaf\Corn rust leaf (31).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (26).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (41)_aug_p4_31.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (7)_aug_p4_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (35)_aug_p0_5.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (58)_aug_p4_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Peach leaf\Peach leaf (81)_aug_p0_20.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (4)_aug_p4_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (53)_aug_p3_66.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (21)_aug_p1_58.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (51)_aug_p2_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (45)_aug_p4_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (24)_aug_p2_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Soyabean leaf\Soyabean leaf (16)_aug_p1_65.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (55)_aug_p3_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (36)_aug_p2_64.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (50)_aug_p3_61.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (63)_aug_p4_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (20).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (7)_aug_p4_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (38)_aug_p3_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (9)_aug_p2_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (45)_aug_p0_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (69)_aug_p1_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (61)_aug_p3_18.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (18)_aug_p3_58.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (58)_aug_p4_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (12).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (44).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (83)_aug_p0_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (74)_aug_p3_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn rust leaf\Corn rust leaf (94).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (86)_aug_p0_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (55)_aug_p2_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (72)_aug_p0_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (13)_aug_p0_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (3).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (38)_aug_p2_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn Gray leaf spot\Corn Gray leaf spot (30)_aug_p2_38.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (74)_aug_p3_14.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (14)_aug_p2_60.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (39)_aug_p0_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (59)_aug_p2_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (39).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (4)_aug_p2_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (45)_aug_p3_39.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn Gray leaf spot\Corn Gray leaf spot (58)_aug_p3_47.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Cherry leaf\Cherry leaf (12)_aug_p0_14.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (27)_aug_p2_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (16)_aug_p1_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (37)_aug_p1_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (17)_aug_p4_60.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (31).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (116)_aug_p1_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (33)_aug_p3_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Cherry leaf\Cherry leaf (21)_aug_p3_31.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (59).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (34)_aug_p2_0.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (36).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (70)_aug_p3_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (51)_aug_p0_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (87).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf spot\Bell_pepper leaf spot (24)_aug_p3_35.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (3)_aug_p4_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (38)_aug_p4_0.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (59).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (31)_aug_p0_23.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (21).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple Scab Leaf\Apple Scab Leaf (40).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf black rot\grape leaf black rot (56)_aug_p3_26.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (35)_aug_p1_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Blueberry leaf\Blueberry leaf (47)_aug_p2_45.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf\Bell_pepper leaf (22)_aug_p0_69.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (71)_aug_p4_8.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (65)_aug_p4_25.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (81).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (48)_aug_p0_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (3).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf\Tomato leaf (23)_aug_p4_21.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf late blight\Potato leaf late blight (22)_aug_p4_33.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (13)_aug_p2_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple rust leaf\Apple rust leaf (63).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Early blight leaf\Tomato Early blight leaf (37)_aug_p0_65.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (60)_aug_p4_23.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (32)_aug_p3_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (40)_aug_p3_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (54).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (15)_aug_p2_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Early blight leaf\Tomato Early blight leaf (2)_aug_p1_49.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (42).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (66).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (43)_aug_p1_65.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (18)_aug_p0_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (29)_aug_p3_12.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (28)_aug_p1_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (29)_aug_p1_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (49).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf bacterial spot\Tomato leaf bacterial spot (11)_aug_p2_14.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (39).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (83)_aug_p1_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (46)_aug_p1_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Soyabean leaf\Soyabean leaf (13)_aug_p3_54.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (31)_aug_p2_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple leaf\Apple leaf (55).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (60)_aug_p2_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn leaf blight\Corn leaf blight (82).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (19)_aug_p2_66.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (101)_aug_p3_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (5)_aug_p0_36.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (99).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (8)_aug_p3_11.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (1)_aug_p3_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (26)_aug_p2_48.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (61)_aug_p3_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (19).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf spot\Bell_pepper leaf spot (26)_aug_p0_21.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (4)_aug_p3_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (112)_aug_p2_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple rust leaf\Apple rust leaf (71)_aug_p2_48.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (37)_aug_p3_1.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (8)_aug_p3_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (77).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (79)_aug_p2_8.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (53)_aug_p4_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Peach leaf\Peach leaf (61)_aug_p0_30.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (79)_aug_p2_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (17)_aug_p2_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (54).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (20)_aug_p1_64.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf late blight\Potato leaf late blight (71)_aug_p0_56.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (71)_aug_p0_50.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (66).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (63)_aug_p2_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf\grape leaf (38)_aug_p1_20.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (2)_aug_p4_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (38)_aug_p3_46.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple leaf\Apple leaf (32)_aug_p0_3.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (11)_aug_p3_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (4)_aug_p1_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Early blight leaf\Tomato Early blight leaf (18)_aug_p0_15.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (25)_aug_p2_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (89)_aug_p0_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (7)_aug_p3_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn leaf blight\Corn leaf blight (178).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (46)_aug_p1_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (27)_aug_p4_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (11)_aug_p0_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (63).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (37)_aug_p3_35.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (102)_aug_p2_23.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (6)_aug_p4_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Raspberry leaf\Raspberry leaf (1)_aug_p3_5.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (39)_aug_p4_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Soyabean leaf\Soyabean leaf (4)_aug_p2_49.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf yellow virus\Tomato leaf yellow virus (2)_aug_p4_31.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (81).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (2)_aug_p4_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (42)_aug_p4_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn rust leaf\Corn rust leaf (78)_aug_p3_51.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (34)_aug_p0_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (39)_aug_p0_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (87).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (65)_aug_p3_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf\Bell_pepper leaf (35)_aug_p1_64.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (45)_aug_p1_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (75)_aug_p2_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Peach leaf\Peach leaf (103).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (35)_aug_p3_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (29)_aug_p0_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf spot\Bell_pepper leaf spot (59).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (33)_aug_p3_14.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (26)_aug_p3_22.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (49)_aug_p1_56.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (24)_aug_p4_11.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (21).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (107)_aug_p0_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (61)_aug_p0_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf\Tomato leaf (32)_aug_p0_26.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (20)_aug_p2_8.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (18)_aug_p3_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (41)_aug_p2_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (44)_aug_p2_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Cherry leaf\Cherry leaf (8)_aug_p0_16.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (33)_aug_p2_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (89).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (2)_aug_p0_62.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple rust leaf\Apple rust leaf (23)_aug_p0_44.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (89)_aug_p3_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (15)_aug_p1_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (37)_aug_p3_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (13)_aug_p2_32.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (106).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (24)_aug_p0_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (64)_aug_p0_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (6).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (125)_aug_p2_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple rust leaf\Apple rust leaf (24)_aug_p0_21.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (6).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (24)_aug_p0_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (92)_aug_p3_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (21)_aug_p1_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (52).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (38)_aug_p1_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (21)_aug_p2_67.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (20)_aug_p4_47.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (31).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (50)_aug_p4_58.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (67).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf mosaic virus\Tomato leaf mosaic virus (15)_aug_p0_19.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (16).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (42).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (29)_aug_p1_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (69)_aug_p3_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (4)_aug_p3_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn leaf blight\Corn leaf blight (121).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (32).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Early blight leaf\Tomato Early blight leaf (12)_aug_p0_57.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (43)_aug_p4_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (2)_aug_p0_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (36)_aug_p4_66.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (42).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (35)_aug_p3_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn leaf blight\Corn leaf blight (4).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (3).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf mosaic virus\Tomato leaf mosaic virus (25)_aug_p2_58.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (125)_aug_p0_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf black rot\grape leaf black rot (6)_aug_p1_32.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (67)_aug_p3_47.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (11).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (34)_aug_p1_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (54).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf spot\Bell_pepper leaf spot (35)_aug_p1_25.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (50).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (34)_aug_p3_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (12)_aug_p0_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (4).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (2)_aug_p3_56.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Cherry leaf\Cherry leaf (13)_aug_p2_27.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn Gray leaf spot\Corn Gray leaf spot (35).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (53).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Peach leaf\Peach leaf (93)_aug_p1_46.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (20)_aug_p0_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (38)_aug_p3_64.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (23).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (57)_aug_p0_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (1)_aug_p1_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (8)_aug_p3_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (55)_aug_p0_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (10)_aug_p2_61.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (63).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (1)_aug_p1_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple rust leaf\Apple rust leaf (3)_aug_p2_20.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (32)_aug_p0_31.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (52)_aug_p4_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (8)_aug_p1_8.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn rust leaf\Corn rust leaf (67)_aug_p2_50.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (22)_aug_p3_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (60)_aug_p3_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (78)_aug_p3_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple Scab Leaf\Apple Scab Leaf (54).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Early blight leaf\Tomato Early blight leaf (70).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Cherry leaf\Cherry leaf (44).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (47)_aug_p4_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (87)_aug_p4_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (21).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (44).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (24).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (149).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (1)_aug_p1_33.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple leaf\Apple leaf (41)_aug_p2_51.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (23)_aug_p3_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Peach leaf\Peach leaf (103)_aug_p0_24.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (18)_aug_p2_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (92)_aug_p1_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (108)_aug_p1_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (33)_aug_p4_26.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Raspberry leaf\Raspberry leaf (43)_aug_p4_16.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (39)_aug_p0_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (23)_aug_p2_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (8)_aug_p1_59.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (70)_aug_p2_20.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (101)_aug_p2_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (27)_aug_p3_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (62)_aug_p0_11.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (93)_aug_p2_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (28)_aug_p2_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (111)_aug_p3_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (62)_aug_p2_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (72)_aug_p4_31.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (28)_aug_p3_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (81).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (52)_aug_p1_11.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn rust leaf\Corn rust leaf (57)_aug_p3_44.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (25).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (43)_aug_p1_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (27)_aug_p1_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf black rot\grape leaf black rot (42)_aug_p2_18.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (142)_aug_p2_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (68)_aug_p2_56.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple Scab Leaf\Apple Scab Leaf (45)_aug_p4_8.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (3)_aug_p2_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn leaf blight\Corn leaf blight (7)_aug_p2_38.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (33)_aug_p1_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (7)_aug_p3_1.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (23)_aug_p0_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (53).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (20).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (51)_aug_p0_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (17)_aug_p4_35.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (68)_aug_p0_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (11)_aug_p0_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (99)_aug_p1_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (1)_aug_p3_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (1)_aug_p0_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (42)_aug_p4_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (6)_aug_p1_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (53)_aug_p3_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (10)_aug_p2_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (39)_aug_p4_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (1)_aug_p0_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Septoria leaf spot\Tomato Septoria leaf spot (44)_aug_p3_4.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (54)_aug_p4_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (87).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (85).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (21)_aug_p3_11.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (50).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Blueberry leaf\Blueberry leaf (91)_aug_p3_56.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (47)_aug_p4_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (13).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (33)_aug_p4_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (4)_aug_p3_52.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (32)_aug_p4_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (45)_aug_p3_33.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Early blight leaf\Tomato Early blight leaf (59)_aug_p3_46.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (55)_aug_p1_47.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (32)_aug_p4_16.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (15).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (52).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (40).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (43)_aug_p3_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (4)_aug_p3_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (27)_aug_p3_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (44)_aug_p4_50.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (136)_aug_p0_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (32)_aug_p4_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (85)_aug_p0_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf late blight\Potato leaf late blight (65).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (6)_aug_p4_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf bacterial spot\Tomato leaf bacterial spot (47)_aug_p2_9.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (116)_aug_p0_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (70).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (2)_aug_p0_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (7).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (108)_aug_p2_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (49)_aug_p4_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (54)_aug_p2_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (66)_aug_p2_1.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (6).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (33)_aug_p2_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (15)_aug_p4_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (110).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (83).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (34)_aug_p0_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (32)_aug_p0_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (7).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (17)_aug_p1_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (14)_aug_p2_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (27)_aug_p1_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (99).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (2)_aug_p1_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (6)_aug_p0_29.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (45)_aug_p1_50.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (43)_aug_p3_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (32)_aug_p1_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (108)_aug_p1_23.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (19)_aug_p4_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Septoria leaf spot\Tomato Septoria leaf spot (13)_aug_p0_32.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (60).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (96).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (20)_aug_p0_64.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (4)_aug_p1_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (54)_aug_p1_2.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (41)_aug_p2_34.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (80).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (54)_aug_p0_60.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (64)_aug_p1_6.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf late blight\Potato leaf late blight (6)_aug_p3_42.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (69)_aug_p3_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Blueberry leaf\Blueberry leaf (77)_aug_p2_11.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (29)_aug_p4_58.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (73)_aug_p1_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (50)_aug_p3_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (16)_aug_p0_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (3).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (8).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (15).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (60)_aug_p1_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Early blight leaf\Tomato Early blight leaf (67)_aug_p2_15.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (59)_aug_p2_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (19)_aug_p3_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn Gray leaf spot\Corn Gray leaf spot (36)_aug_p0_24.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (54)_aug_p2_14.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (17)_aug_p3_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (41)_aug_p2_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (21)_aug_p0_64.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Early blight leaf\Tomato Early blight leaf (15)_aug_p1_8.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (10)_aug_p0_65.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (24)_aug_p0_45.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (83).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (41).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (23).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (2)_aug_p3_40.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (49)_aug_p3_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (46).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (54)_aug_p1_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (6)_aug_p1_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (75)_aug_p0_58.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (12).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (25)_aug_p4_36.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple rust leaf\Apple rust leaf (34).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (94)_aug_p0_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (171).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (88).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (5)_aug_p0_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (6)_aug_p1_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (69)_aug_p2_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (20)_aug_p0_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (21)_aug_p0_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf mosaic virus\Tomato leaf mosaic virus (20)_aug_p1_64.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple leaf\Apple leaf (24)_aug_p1_46.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (95)_aug_p2_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (9)_aug_p3_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (57)_aug_p2_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf\grape leaf (2)_aug_p2_53.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (85)_aug_p1_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (43)_aug_p3_4.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (94).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (73)_aug_p3_2.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (32)_aug_p4_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (13)_aug_p0_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (44).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (5)_aug_p1_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (64)_aug_p1_11.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (36)_aug_p3_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (42)_aug_p4_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (15)_aug_p2_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (68)_aug_p4_4.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Blueberry leaf\Blueberry leaf (24)_aug_p0_9.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (18).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (109)_aug_p4_16.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (17)_aug_p1_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (31)_aug_p4_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (74)_aug_p4_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Squash Powdery mildew leaf\Squash Powdery mildew leaf (38).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (2).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (34)_aug_p1_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (8)_aug_p0_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (20)_aug_p2_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (2)_aug_p1_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (47).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Soyabean leaf\Soyabean leaf (39)_aug_p4_2.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (85)_aug_p3_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (26)_aug_p2_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple leaf\Apple leaf (58)_aug_p3_24.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (22)_aug_p2_60.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Blueberry leaf\Blueberry leaf (7)_aug_p1_38.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (52)_aug_p0_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (56).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Peach leaf\Peach leaf (20)_aug_p3_9.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (58).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (32)_aug_p2_14.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf yellow virus\Tomato leaf yellow virus (11)_aug_p1_11.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (31)_aug_p0_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (45)_aug_p1_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (15)_aug_p4_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (49).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (39)_aug_p1_67.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (117).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (32).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (34).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (95)_aug_p2_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (5)_aug_p3_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (27)_aug_p2_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (12)_aug_p3_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (14)_aug_p4_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Septoria leaf spot\Tomato Septoria leaf spot (103)_aug_p0_9.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (85).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (62).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (64)_aug_p4_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (26).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (21)_aug_p3_20.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (40)_aug_p1_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (11).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple Scab Leaf\Apple Scab Leaf (20)_aug_p1_51.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (1).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (76)_aug_p3_27.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (14)_aug_p3_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (51)_aug_p3_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn rust leaf\Corn rust leaf (74)_aug_p1_56.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (62)_aug_p3_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (108).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (68)_aug_p4_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf spot\Bell_pepper leaf spot (5)_aug_p1_54.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf\grape leaf (52)_aug_p4_57.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (74).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (40)_aug_p2_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple Scab Leaf\Apple Scab Leaf (42)_aug_p2_6.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (1)_aug_p4_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf spot\Bell_pepper leaf spot (7)_aug_p3_19.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (40)_aug_p2_47.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (59).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Soyabean leaf\Soyabean leaf (12)_aug_p2_43.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (8)_aug_p1_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (34)_aug_p1_56.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf spot\Bell_pepper leaf spot (46)_aug_p2_64.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (39)_aug_p3_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (46).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (21).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (13)_aug_p1_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple leaf\Apple leaf (54).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn Gray leaf spot\Corn Gray leaf spot (19)_aug_p0_67.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (16)_aug_p3_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf late blight\Potato leaf late blight (89)_aug_p2_2.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn Gray leaf spot\Corn Gray leaf spot (63)_aug_p0_30.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (10)_aug_p4_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (31)_aug_p1_23.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf late blight\Potato leaf late blight (27)_aug_p1_8.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (45)_aug_p0_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (94)_aug_p3_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple rust leaf\Apple rust leaf (41)_aug_p2_7.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (67)_aug_p3_14.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (60)_aug_p4_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (33).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (9)_aug_p2_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (72)_aug_p3_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (13).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (18)_aug_p4_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Soyabean leaf\Soyabean leaf (53).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (41)_aug_p4_17.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (42)_aug_p3_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf yellow virus\Tomato leaf yellow virus (55)_aug_p4_14.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (67)_aug_p1_45.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (2)_aug_p2_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (19)_aug_p0_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (48)_aug_p1_23.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (4).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf\grape leaf (49)_aug_p4_42.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (123)_aug_p3_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (57)_aug_p1_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Peach leaf\Peach leaf (23)_aug_p0_27.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (49)_aug_p3_3.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (25).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (37)_aug_p0_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (2)_aug_p0_50.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (36).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn rust leaf\Corn rust leaf (33)_aug_p2_5.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (20)_aug_p4_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (21)_aug_p0_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (40)_aug_p4_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (39)_aug_p2_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn Gray leaf spot\Corn Gray leaf spot (12)_aug_p4_51.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (83).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (22)_aug_p3_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (69).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (12)_aug_p3_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (20)_aug_p0_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (58).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (29)_aug_p0_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (63)_aug_p4_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (19)_aug_p0_61.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (62).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (16).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (47)_aug_p0_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (53)_aug_p1_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple leaf\Apple leaf (24)_aug_p3_48.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (55).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Peach leaf\Peach leaf (58)_aug_p2_6.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (51)_aug_p4_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (79)_aug_p3_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn leaf blight\Corn leaf blight (178)_aug_p2_7.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (21)_aug_p4_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (3)_aug_p1_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Early blight leaf\Tomato Early blight leaf (25).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (29).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (113)_aug_p0_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (26)_aug_p1_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (57)_aug_p0_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (81)_aug_p3_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (44)_aug_p3_5.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (33)_aug_p3_31.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (29)_aug_p0_69.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple leaf\Apple leaf (40)_aug_p1_26.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (12)_aug_p1_56.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (104)_aug_p3_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (96).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (65)_aug_p3_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (27)_aug_p3_62.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn rust leaf\Corn rust leaf (15).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Blueberry leaf\Blueberry leaf (37).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (31).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Peach leaf\Peach leaf (26)_aug_p4_33.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Early blight leaf\Tomato Early blight leaf (69)_aug_p3_6.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (47)_aug_p4_32.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (38)_aug_p1_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (42)_aug_p2_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (73).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (102)_aug_p0_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (12)_aug_p3_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (32)_aug_p0_15.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (51)_aug_p2_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (36).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (55)_aug_p2_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf\Tomato leaf (23)_aug_p2_69.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (117).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (15)_aug_p3_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (29)_aug_p2_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (50)_aug_p1_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (12)_aug_p1_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (37)_aug_p2_45.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf early blight\Potato leaf early blight (39).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (49)_aug_p2_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (17)_aug_p4_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (79)_aug_p1_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (80)_aug_p2_51.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (62)_aug_p3_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (20)_aug_p0_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (108)_aug_p2_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (8)_aug_p1_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (2)_aug_p2_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (1)_aug_p2_14.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Cherry leaf\Cherry leaf (6)_aug_p2_40.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Potato leaf early blight\Potato leaf early blight (76)_aug_p1_41.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (44)_aug_p1_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (85).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (1).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (82).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn Gray leaf spot\Corn Gray leaf spot (14).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (51).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (12)_aug_p4_1.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (3).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (1)_aug_p1_23.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Soyabean leaf\Soyabean leaf (57)_aug_p1_39.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (47)_aug_p1_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (93).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (34)_aug_p4_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (38)_aug_p0_60.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (56)_aug_p2_59.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (46)_aug_p1_27.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (10)_aug_p3_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (42)_aug_p1_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Strawberry leaf\Strawberry leaf (35)_aug_p2_36.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (77)_aug_p3_43.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (53)_aug_p1_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (6)_aug_p0_23.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (9)_aug_p3_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (36)_aug_p4_7.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (57)_aug_p4_7.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (1)_aug_p1_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (43)_aug_p0_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (27)_aug_p3_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (63)_aug_p3_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (38)_aug_p1_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (56)_aug_p1_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (47)_aug_p4_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Blueberry leaf\Blueberry leaf (47)_aug_p3_2.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (12)_aug_p4_64.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (48)_aug_p3_65.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (10)_aug_p4_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (16).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Blueberry leaf\Blueberry leaf (21)_aug_p4_15.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (49)_aug_p3_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (19)_aug_p2_62.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (80)_aug_p1_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (68)_aug_p0_58.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (95).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (26)_aug_p1_50.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (60)_aug_p4_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (9)_aug_p1_42.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (44)_aug_p2_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (5)_aug_p2_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (59)_aug_p3_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn Gray leaf spot\Corn Gray leaf spot (33)_aug_p4_18.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (44)_aug_p3_3.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Peach leaf\Peach leaf (3)_aug_p2_7.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (14)_aug_p0_26.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (76).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (18).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (51)_aug_p4_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Raspberry leaf\Raspberry leaf (1)_aug_p0_4.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (16)_aug_p3_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (31)_aug_p1_57.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (38)_aug_p4_1.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (56)_aug_p3_35.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (54)_aug_p3_62.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (29)_aug_p2_11.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (31).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (23).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (33).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (60)_aug_p1_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (21)_aug_p1_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Blueberry leaf\Blueberry leaf (81)_aug_p1_10.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (15)_aug_p0_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (10).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Soyabean leaf\Soyabean leaf (48)_aug_p4_39.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (46).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn leaf blight\Corn leaf blight (161).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (22)_aug_p4_21.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (44).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (23)_aug_p0_42.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (79)_aug_p4_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (30)_aug_p0_16.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (69)_aug_p4_54.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (43).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Cherry leaf\Cherry leaf (19)_aug_p3_69.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (49)_aug_p4_61.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato mold leaf\Tomato mold leaf (2)_aug_p2_29.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (30)_aug_p0_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (42)_aug_p3_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (143).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (98)_aug_p2_58.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (17)_aug_p2_14.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (13)_aug_p3_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (49).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf mosaic virus\Tomato leaf mosaic virus (12)_aug_p1_27.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (51)_aug_p1_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (20)_aug_p3_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (27).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (69)_aug_p4_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (26)_aug_p4_4.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (43)_aug_p0_48.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (47)_aug_p4_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (18)_aug_p2_39.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn leaf blight\Corn leaf blight (67)_aug_p4_35.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Squash Powdery mildew leaf\Squash Powdery mildew leaf (118)_aug_p2_43.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (52)_aug_p1_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf\Tomato leaf (31)_aug_p3_10.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (20).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Septoria leaf spot\Tomato Septoria leaf spot (48).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (8)_aug_p2_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (38).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (89)_aug_p4_50.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (26)_aug_p2_66.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (126).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (55)_aug_p1_57.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (5)_aug_p0_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (49)_aug_p1_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (89)_aug_p3_33.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (16)_aug_p2_1.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (135).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (94)_aug_p2_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (9)_aug_p0_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (9)_aug_p4_56.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (18)_aug_p1_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (154)_aug_p0_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf bacterial spot\Tomato leaf bacterial spot (34).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (27)_aug_p3_1.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Blueberry leaf\Blueberry leaf (92).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (27)_aug_p4_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple Scab Leaf\Apple Scab Leaf (14)_aug_p2_27.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (45)_aug_p0_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (98)_aug_p1_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (40)_aug_p4_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf late blight\Potato leaf late blight (11)_aug_p2_60.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (1)_aug_p3_61.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (31)_aug_p3_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Early blight leaf\Tomato Early blight leaf (57)_aug_p4_25.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (10).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple rust leaf\Apple rust leaf (17)_aug_p0_12.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (39)_aug_p1_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (88)_aug_p2_0.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn Gray leaf spot\Corn Gray leaf spot (58)_aug_p2_53.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (51)_aug_p3_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn Gray leaf spot\Corn Gray leaf spot (16).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (111)_aug_p1_47.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Bell_pepper leaf\Bell_pepper leaf (46)_aug_p0_5.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (68)_aug_p0_14.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (99)_aug_p2_22.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (73)_aug_p0_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (9)_aug_p0_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (6).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf bacterial spot\Tomato leaf bacterial spot (2).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn rust leaf\Corn rust leaf (53).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (93)_aug_p0_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (1)_aug_p0_16.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (31)_aug_p3_68.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (98).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (68)_aug_p3_32.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (52)_aug_p1_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (4)_aug_p0_17.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (15).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (8)_aug_p4_11.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (85).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (13).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (69)_aug_p1_50.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple Scab Leaf\Apple Scab Leaf (17)_aug_p2_62.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (43)_aug_p2_66.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf yellow virus\Tomato leaf yellow virus (67)_aug_p2_38.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (34)_aug_p0_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato mold leaf\Tomato mold leaf (55)_aug_p3_3.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf late blight\Potato leaf late blight (70).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (11)_aug_p4_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (56)_aug_p2_36.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (46)_aug_p0_12.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (106).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (13)_aug_p2_23.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (29)_aug_p3_42.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Peach leaf\Peach leaf (66).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (14)_aug_p0_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (22)_aug_p2_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (70)_aug_p3_63.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf black rot\grape leaf black rot (26)_aug_p3_18.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (28)_aug_p4_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf\Bell_pepper leaf (51)_aug_p2_19.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (72)_aug_p1_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf mosaic virus\Tomato leaf mosaic virus (2).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (63)_aug_p0_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple rust leaf\Apple rust leaf (48).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (36)_aug_p1_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (31)_aug_p3_9.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (34).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf\grape leaf (51)_aug_p4_39.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf yellow virus\Tomato leaf yellow virus (39)_aug_p0_50.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (73)_aug_p1_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (44)_aug_p4_19.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (143)_aug_p4_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (57)_aug_p4_34.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple rust leaf\Apple rust leaf (23)_aug_p4_10.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (18)_aug_p4_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (70).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (37).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (25)_aug_p1_34.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (27).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple leaf\Apple leaf (78)_aug_p4_37.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (39)_aug_p0_46.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (32)_aug_p2_2.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Blueberry leaf\Blueberry leaf (83)_aug_p3_50.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (26)_aug_p0_55.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Raspberry leaf\Raspberry leaf (84)_aug_p4_42.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato Septoria leaf spot\Tomato Septoria leaf spot (65)_aug_p2_39.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (11)_aug_p0_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (81)_aug_p4_14.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (36)_aug_p0_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple Scab Leaf\Apple Scab Leaf (30)_aug_p0_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (36)_aug_p3_14.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Peach leaf\Peach leaf (8)_aug_p2_30.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (3)_aug_p4_57.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (44).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf early blight\Potato leaf early blight (2)_aug_p2_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (2)_aug_p3_65.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (71)_aug_p2_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn rust leaf\Corn rust leaf (55)_aug_p2_40.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (5)_aug_p4_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (13)_aug_p2_11.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (4)_aug_p2_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (41).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (50)_aug_p0_67.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Soyabean leaf\Soyabean leaf (15).jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (78)_aug_p0_9.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (1)_aug_p3_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (24)_aug_p1_45.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (93)_aug_p4_31.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Apple rust leaf\Apple rust leaf (59)_aug_p1_24.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (26)_aug_p0_53.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf mosaic virus\Tomato leaf mosaic virus (17)_aug_p2_31.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Apple rust leaf\Apple rust leaf (34)_aug_p2_50.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn leaf blight\Corn leaf blight (155).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (41)_aug_p4_44.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Cherry leaf\Cherry leaf (36)_aug_p0_0.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (41).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (46)_aug_p4_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (83).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Peach leaf\Peach leaf (56)_aug_p0_29.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (77).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (35)_aug_p4_21.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (88).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Soyabean leaf\Soyabean leaf (19)_aug_p2_41.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf mosaic virus\Tomato leaf mosaic virus (14)_aug_p4_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (3)_aug_p0_49.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Potato leaf late blight\Potato leaf late blight (61)_aug_p2_49.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (43)_aug_p1_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (44)_aug_p4_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (47).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (30)_aug_p3_25.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Bell_pepper leaf spot\Bell_pepper leaf spot (49)_aug_p3_1.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (65)_aug_p2_64.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Squash Powdery mildew leaf\Squash Powdery mildew leaf (67)_aug_p0_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf\grape leaf (45)_aug_p4_6.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Squash Powdery mildew leaf\Squash Powdery mildew leaf (57).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Blueberry leaf\Blueberry leaf (52)_aug_p1_50.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\grape leaf black rot\grape leaf black rot (21)_aug_p1_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (24)_aug_p3_19.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (59)_aug_p4_43.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Corn Gray leaf spot\Corn Gray leaf spot (48)_aug_p1_13.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (1)_aug_p0_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (113)_aug_p0_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Blueberry leaf\Blueberry leaf (42)_aug_p3_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf\Tomato leaf (21).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (53)_aug_p4_43.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (14)_aug_p4_51.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato Septoria leaf spot\Tomato Septoria leaf spot (43)_aug_p0_8.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\grape leaf black rot\grape leaf black rot (42)_aug_p0_21.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf mosaic virus\Tomato leaf mosaic virus (34)_aug_p0_39.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (11)_aug_p0_13.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (12)_aug_p0_51.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (21)_aug_p2_29.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Blueberry leaf\Blueberry leaf (79)_aug_p3_0.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Early blight leaf\Tomato Early blight leaf (41)_aug_p2_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (33)_aug_p2_66.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (38)_aug_p1_24.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (70)_aug_p4_56.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf\Bell_pepper leaf (23)_aug_p2_68.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (53)_aug_p1_38.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (67)_aug_p3_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (39)_aug_p0_37.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (38).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Apple leaf\Apple leaf (15).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf late blight\Tomato leaf late blight (93).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Raspberry leaf\Raspberry leaf (33)_aug_p4_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Bell_pepper leaf spot\Bell_pepper leaf spot (15)_aug_p1_7.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Tomato leaf late blight\Tomato leaf late blight (87)_aug_p3_50.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato mold leaf\Tomato mold leaf (42)_aug_p3_20.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (24)_aug_p2_25.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Cherry leaf\Cherry leaf (39).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Tomato leaf late blight\Tomato leaf late blight (63).jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf\Tomato leaf (33)_aug_p2_18.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn leaf blight\Corn leaf blight (125)_aug_p1_16.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Peach leaf\Peach leaf (55)_aug_p2_28.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato Septoria leaf spot\Tomato Septoria leaf spot (10)_aug_p0_10.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Tomato leaf bacterial spot\Tomato leaf bacterial spot (68)_aug_p2_48.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (15)_aug_p2_30.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Strawberry leaf\Strawberry leaf (4)_aug_p0_33.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Cherry leaf\Cherry leaf (41)_aug_p0_3.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn rust leaf\Corn rust leaf (13).jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Corn Gray leaf spot\Corn Gray leaf spot (13)_aug_p3_52.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\val\Strawberry leaf\Strawberry leaf (19)_aug_p3_8.jpg,val,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\grape leaf black rot\grape leaf black rot (32)_aug_p0_48.jpg,test,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (24)_aug_p2_5.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\train\Potato leaf late blight\Potato leaf late blight (97)_aug_p3_40.jpg,train,augmented_plantdoc
+datasets\raw\augmented_plantdoc\test\Corn leaf blight\Corn leaf blight (30)_aug_p2_9.jpg,test,augmented_plantdoc

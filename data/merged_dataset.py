@@ -208,11 +208,17 @@ class MergedDiseaseDataset(Dataset):
     def _load_plantdoc_samples(self) -> List[DatasetSample]:
         """Loads PlantDoc segmented/raw crops dynamically, mapping class names to 38 master classes."""
         plantdoc_map = self._load_plantdoc_mapping()
-        
+
         csv_candidates = [
+            Path("outputs/splits") / f"augmented_plantdoc_{self.split}.csv",
+            Path("ai_models/disease_detection/outputs/splits") / f"augmented_plantdoc_{self.split}.csv",
             Path("outputs/splits") / f"plantdoc_classification_{self.split}.csv",
             Path("ai_models/disease_detection/outputs/splits") / f"plantdoc_classification_{self.split}.csv"
         ]
+        # csv_candidates = [
+        #     Path("outputs/splits") / f"plantdoc_classification_{self.split}.csv",
+        #     Path("ai_models/disease_detection/outputs/splits") / f"plantdoc_classification_{self.split}.csv"
+        # ]
         csv_path = next((c for c in csv_candidates if c.exists()), None)
 
         samples = []

@@ -88,6 +88,7 @@ class DatasetSplitGenerator:
         allowed_datasets = {
             "plantvillage",
             "plantdoc_classification",
+            "augmented_plantdoc"
         }
 
         dataset_paths = {}

@@ -18,6 +18,8 @@ paths:
 
     plantdoc_detection: datasets/raw/plantdoc_detection
 
+    augmented_plantdoc: "datasets/raw/augmented_plantdoc"
+
     processed: datasets/processed
 
     cache: datasets/cache
