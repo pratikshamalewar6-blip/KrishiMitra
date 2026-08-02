@@ -85,6 +85,7 @@ def main() -> None:
     parser.add_argument("--lr", type=float, default=0.001, help="Stage 1 head learning rate")
     parser.add_argument("--backbone-lr", type=float, default=0.00001, help="Stage 2 backbone learning rate")
     parser.add_argument("--mix-ratio", type=float, default=0.15, help="Oversampling ratio for PlantDoc crops")
+    parser.add_argument("--pretrained-path", type=str, default="saved_models/efficientnet_b0_disease.pt", help="Path to pre-trained Stage 1 PlantVillage checkpoint")
     parser.add_argument("--loss", type=str, default="WeightedCrossEntropy", choices=["WeightedCrossEntropy", "FocalLoss"], help="Loss criterion")
     parser.add_argument("--device", type=str, default=None, help="Device ('cpu', 'cuda', etc.)")
     args = parser.parse_args()
@@ -149,6 +150,16 @@ def main() -> None:
 
     # 3. Build model and move to device
     model = DiseaseClassifier(config)
+    
+    # Load Stage 1 PlantVillage pre-trained weights if available
+    pretrained_file = Path(args.pretrained_path)
+    if pretrained_file.exists():
+        logger.info(f"Loading pre-trained PlantVillage weights from: {pretrained_file}")
+        state_dict = torch.load(pretrained_file, map_location=config.DEVICE)
+        model.load_state_dict(state_dict)
+    else:
+        logger.info(f"Pre-trained weights file '{pretrained_file}' not found. Initializing from ImageNet backbone.")
+
     model.to(config.DEVICE)
 
     # ==========================================================
