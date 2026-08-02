@@ -1,0 +1,3 @@
+class_name,image_count,average_width,average_height,min_width,max_width,min_height,max_height
+images,2571,1067.44,910.8,115,6000,69,6000
+labels,0,0,0,0,0,0,0

@@ -1,0 +1,31 @@
+{
+    "dataset": "plantdoc_detection",
+    "summary": {
+        "classes": 2,
+        "images": 2571,
+        "average_width": 533.72,
+        "average_height": 455.4
+    },
+    "classes": [
+        {
+            "class_name": "images",
+            "image_count": 2571,
+            "average_width": 1067.44,
+            "average_height": 910.8,
+            "min_width": 115,
+            "max_width": 6000,
+            "min_height": 69,
+            "max_height": 6000
+        },
+        {
+            "class_name": "labels",
+            "image_count": 0,
+            "average_width": 0,
+            "average_height": 0,
+            "min_width": 0,
+            "max_width": 0,
+            "min_height": 0,
+            "max_height": 0
+        }
+    ]
+}

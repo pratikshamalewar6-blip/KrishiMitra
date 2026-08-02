@@ -1,0 +1,391 @@
+{
+    "dataset": "plantvillage",
+    "summary": {
+        "classes": 38,
+        "images": 54305,
+        "average_width": 256.0,
+        "average_height": 256.0
+    },
+    "classes": [
+        {
+            "class_name": "Apple___Apple_scab",
+            "image_count": 630,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Apple___Black_rot",
+            "image_count": 621,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Apple___Cedar_apple_rust",
+            "image_count": 275,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Apple___healthy",
+            "image_count": 1645,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Blueberry___healthy",
+            "image_count": 1502,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Cherry_(including_sour)___healthy",
+            "image_count": 854,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Cherry_(including_sour)___Powdery_mildew",
+            "image_count": 1052,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+            "image_count": 513,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Corn_(maize)___Common_rust_",
+            "image_count": 1192,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Corn_(maize)___healthy",
+            "image_count": 1162,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Corn_(maize)___Northern_Leaf_Blight",
+            "image_count": 985,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Grape___Black_rot",
+            "image_count": 1180,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Grape___Esca_(Black_Measles)",
+            "image_count": 1383,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Grape___healthy",
+            "image_count": 423,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+            "image_count": 1076,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+            "image_count": 5507,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Peach___Bacterial_spot",
+            "image_count": 2297,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Peach___healthy",
+            "image_count": 360,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Pepper,_bell___Bacterial_spot",
+            "image_count": 997,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Pepper,_bell___healthy",
+            "image_count": 1478,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Potato___Early_blight",
+            "image_count": 1000,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Potato___healthy",
+            "image_count": 152,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Potato___Late_blight",
+            "image_count": 1000,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Raspberry___healthy",
+            "image_count": 371,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Soybean___healthy",
+            "image_count": 5090,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Squash___Powdery_mildew",
+            "image_count": 1835,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Strawberry___healthy",
+            "image_count": 456,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Strawberry___Leaf_scorch",
+            "image_count": 1109,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Tomato___Bacterial_spot",
+            "image_count": 2127,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Tomato___Early_blight",
+            "image_count": 1000,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Tomato___healthy",
+            "image_count": 1591,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Tomato___Late_blight",
+            "image_count": 1909,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Tomato___Leaf_Mold",
+            "image_count": 952,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Tomato___Septoria_leaf_spot",
+            "image_count": 1771,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+            "image_count": 1676,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Tomato___Target_Spot",
+            "image_count": 1404,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Tomato___Tomato_mosaic_virus",
+            "image_count": 373,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        },
+        {
+            "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+            "image_count": 5357,
+            "average_width": 256.0,
+            "average_height": 256.0,
+            "min_width": 256,
+            "max_width": 256,
+            "min_height": 256,
+            "max_height": 256
+        }
+    ]
+}

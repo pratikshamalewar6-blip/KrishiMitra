@@ -1,0 +1,2 @@
+dataset,total_classes,total_images,corrupted_images,empty_classes,duplicate_images,invalid_extensions,passed
+plantvillage,38,54305,0,0,21,0,False

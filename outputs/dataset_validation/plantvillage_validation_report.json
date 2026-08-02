@@ -1,0 +1,13 @@
+{
+    "dataset": "plantvillage",
+    "summary": {
+        "dataset": "plantvillage",
+        "total_classes": 38,
+        "total_images": 54305,
+        "corrupted_images": 0,
+        "empty_classes": 0,
+        "duplicate_images": 21,
+        "invalid_extensions": 0,
+        "passed": false
+    }
+}

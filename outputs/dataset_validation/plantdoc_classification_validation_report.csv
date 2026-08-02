@@ -1,0 +1,2 @@
+dataset,total_classes,total_images,corrupted_images,empty_classes,duplicate_images,invalid_extensions,passed
+plantdoc_classification,28,2670,0,0,0,0,True

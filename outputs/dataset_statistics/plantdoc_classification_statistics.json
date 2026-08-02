@@ -1,0 +1,291 @@
+{
+    "dataset": "plantdoc_classification",
+    "summary": {
+        "classes": 28,
+        "images": 2670,
+        "average_width": 958.64,
+        "average_height": 832.76
+    },
+    "classes": [
+        {
+            "class_name": "Apple_leaf",
+            "image_count": 79,
+            "average_width": 748.73,
+            "average_height": 695.96,
+            "min_width": 300,
+            "max_width": 3940,
+            "min_height": 300,
+            "max_height": 2720
+        },
+        {
+            "class_name": "Apple_rust_leaf",
+            "image_count": 96,
+            "average_width": 833.8,
+            "average_height": 754.01,
+            "min_width": 200,
+            "max_width": 5184,
+            "min_height": 150,
+            "max_height": 4016
+        },
+        {
+            "class_name": "Apple_Scab_Leaf",
+            "image_count": 83,
+            "average_width": 936.25,
+            "average_height": 799.24,
+            "min_width": 119,
+            "max_width": 5184,
+            "min_height": 150,
+            "max_height": 5184
+        },
+        {
+            "class_name": "Bell_pepper_leaf",
+            "image_count": 34,
+            "average_width": 643.76,
+            "average_height": 651.5,
+            "min_width": 230,
+            "max_width": 2400,
+            "min_height": 286,
+            "max_height": 2400
+        },
+        {
+            "class_name": "Bell_pepper_leaf_spot",
+            "image_count": 74,
+            "average_width": 832.85,
+            "average_height": 765.15,
+            "min_width": 202,
+            "max_width": 3000,
+            "min_height": 180,
+            "max_height": 3832
+        },
+        {
+            "class_name": "Blueberry_leaf",
+            "image_count": 106,
+            "average_width": 1325.37,
+            "average_height": 1071.95,
+            "min_width": 347,
+            "max_width": 5616,
+            "min_height": 300,
+            "max_height": 3744
+        },
+        {
+            "class_name": "Cherry_leaf",
+            "image_count": 47,
+            "average_width": 1469.06,
+            "average_height": 1306.38,
+            "min_width": 350,
+            "max_width": 5184,
+            "min_height": 300,
+            "max_height": 3456
+        },
+        {
+            "class_name": "Corn_Gray_leaf_spot",
+            "image_count": 63,
+            "average_width": 710.19,
+            "average_height": 563.92,
+            "min_width": 200,
+            "max_width": 5184,
+            "min_height": 191,
+            "max_height": 3456
+        },
+        {
+            "class_name": "Corn_leaf_blight",
+            "image_count": 182,
+            "average_width": 862.15,
+            "average_height": 803.62,
+            "min_width": 194,
+            "max_width": 4608,
+            "min_height": 185,
+            "max_height": 3456
+        },
+        {
+            "class_name": "Corn_rust_leaf",
+            "image_count": 107,
+            "average_width": 1044.7,
+            "average_height": 882.38,
+            "min_width": 300,
+            "max_width": 4032,
+            "min_height": 200,
+            "max_height": 4272
+        },
+        {
+            "class_name": "grape_leaf",
+            "image_count": 63,
+            "average_width": 1454.0,
+            "average_height": 1354.52,
+            "min_width": 384,
+            "max_width": 4000,
+            "min_height": 384,
+            "max_height": 3200
+        },
+        {
+            "class_name": "grape_leaf_black_rot",
+            "image_count": 71,
+            "average_width": 777.65,
+            "average_height": 712.62,
+            "min_width": 150,
+            "max_width": 3439,
+            "min_height": 150,
+            "max_height": 3109
+        },
+        {
+            "class_name": "Peach_leaf",
+            "image_count": 103,
+            "average_width": 1242.26,
+            "average_height": 1197.61,
+            "min_width": 375,
+            "max_width": 5472,
+            "min_height": 363,
+            "max_height": 3648
+        },
+        {
+            "class_name": "Potato_leaf_early_blight",
+            "image_count": 157,
+            "average_width": 638.02,
+            "average_height": 550.96,
+            "min_width": 225,
+            "max_width": 4000,
+            "min_height": 197,
+            "max_height": 2992
+        },
+        {
+            "class_name": "Potato_leaf_late_blight",
+            "image_count": 200,
+            "average_width": 559.6,
+            "average_height": 522.47,
+            "min_width": 250,
+            "max_width": 3284,
+            "min_height": 195,
+            "max_height": 3000
+        },
+        {
+            "class_name": "Raspberry_leaf",
+            "image_count": 112,
+            "average_width": 1306.58,
+            "average_height": 1101.62,
+            "min_width": 400,
+            "max_width": 3872,
+            "min_height": 333,
+            "max_height": 3264
+        },
+        {
+            "class_name": "Soyabean_leaf",
+            "image_count": 57,
+            "average_width": 1451.37,
+            "average_height": 1160.11,
+            "min_width": 396,
+            "max_width": 5184,
+            "min_height": 329,
+            "max_height": 4320
+        },
+        {
+            "class_name": "Squash_Powdery_mildew_leaf",
+            "image_count": 124,
+            "average_width": 1168.68,
+            "average_height": 929.7,
+            "min_width": 189,
+            "max_width": 4320,
+            "min_height": 225,
+            "max_height": 4000
+        },
+        {
+            "class_name": "Strawberry_leaf",
+            "image_count": 88,
+            "average_width": 1367.52,
+            "average_height": 1108.75,
+            "min_width": 450,
+            "max_width": 5184,
+            "min_height": 335,
+            "max_height": 3456
+        },
+        {
+            "class_name": "Tomato_Early_blight_leaf",
+            "image_count": 79,
+            "average_width": 782.09,
+            "average_height": 628.94,
+            "min_width": 150,
+            "max_width": 3872,
+            "min_height": 150,
+            "max_height": 2592
+        },
+        {
+            "class_name": "Tomato_leaf",
+            "image_count": 44,
+            "average_width": 1086.16,
+            "average_height": 976.02,
+            "min_width": 300,
+            "max_width": 3872,
+            "min_height": 273,
+            "max_height": 2592
+        },
+        {
+            "class_name": "Tomato_leaf_bacterial_spot",
+            "image_count": 101,
+            "average_width": 796.89,
+            "average_height": 655.34,
+            "min_width": 150,
+            "max_width": 4000,
+            "min_height": 150,
+            "max_height": 3000
+        },
+        {
+            "class_name": "Tomato_leaf_late_blight",
+            "image_count": 101,
+            "average_width": 1145.08,
+            "average_height": 974.66,
+            "min_width": 225,
+            "max_width": 4416,
+            "min_height": 154,
+            "max_height": 3370
+        },
+        {
+            "class_name": "Tomato_leaf_mosaic_virus",
+            "image_count": 44,
+            "average_width": 543.23,
+            "average_height": 464.5,
+            "min_width": 150,
+            "max_width": 3648,
+            "min_height": 138,
+            "max_height": 2736
+        },
+        {
+            "class_name": "Tomato_leaf_yellow_virus",
+            "image_count": 223,
+            "average_width": 435.64,
+            "average_height": 423.08,
+            "min_width": 115,
+            "max_width": 1600,
+            "min_height": 159,
+            "max_height": 1462
+        },
+        {
+            "class_name": "Tomato_mold_leaf",
+            "image_count": 85,
+            "average_width": 961.41,
+            "average_height": 866.45,
+            "min_width": 115,
+            "max_width": 6000,
+            "min_height": 85,
+            "max_height": 6000
+        },
+        {
+            "class_name": "Tomato_Septoria_leaf_spot",
+            "image_count": 145,
+            "average_width": 758.79,
+            "average_height": 675.88,
+            "min_width": 143,
+            "max_width": 3655,
+            "min_height": 137,
+            "max_height": 3264
+        },
+        {
+            "class_name": "Tomato_two_spotted_spider_mites_leaf",
+            "image_count": 2,
+            "average_width": 960.0,
+            "average_height": 720.0,
+            "min_width": 960,
+            "max_width": 960,
+            "min_height": 720,
+            "max_height": 720
+        }
+    ]
+}

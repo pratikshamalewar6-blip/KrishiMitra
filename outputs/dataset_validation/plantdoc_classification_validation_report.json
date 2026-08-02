@@ -1,0 +1,13 @@
+{
+    "dataset": "plantdoc_classification",
+    "summary": {
+        "dataset": "plantdoc_classification",
+        "total_classes": 28,
+        "total_images": 2670,
+        "corrupted_images": 0,
+        "empty_classes": 0,
+        "duplicate_images": 0,
+        "invalid_extensions": 0,
+        "passed": true
+    }
+}

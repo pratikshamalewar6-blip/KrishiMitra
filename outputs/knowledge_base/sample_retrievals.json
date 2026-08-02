@@ -1,0 +1,195 @@
+{
+  "description": "KrishiMitra Crop Disease Knowledge Base Sample Retrievals",
+  "evaluation_status": "VALIDATED",
+  "sample_retrievals": {
+    "disease_class_query": {
+      "query": "Potato___Late_blight",
+      "output": {
+        "disease_id": "Potato___Late_blight",
+        "crop_name": "Potato",
+        "disease_name": "Late Blight",
+        "scientific_name": "Phytophthora infestans",
+        "disease_category": "Oomycete",
+        "pathogen_type": "Oomycete",
+        "symptoms": [
+          "Large, dark, water-soaked, irregular lesions on leaves that expand rapidly.",
+          "White, velvety mildew-like growth on leaf undersides in humid weather.",
+          "Foul, rotting smell in the field; copper-brown, dry decay inside tubers."
+        ],
+        "causes": [
+          "Oomycete pathogen overwintering in seed tubers or cull piles.",
+          "Rapid spore production under wet, cool conditions."
+        ],
+        "spread_method": "Wind-borne sporangia travelling miles, and water-driven zoospores.",
+        "risk_level": "High",
+        "disease_severity_description": "Extremely critical (infamous for the Irish Potato Famine). Can destroy entire fields in days and rot stored tubers.",
+        "affected_plant_parts": [
+          "Leaves",
+          "Stems",
+          "Tubers"
+        ],
+        "weather_conditions_favoring_disease": "Cool (10-21°C), wet, rainy, and foggy conditions with high relative humidity.",
+        "growth_stage_affected": "Active Vegetative Growth, Flowering, and Tuber Bulking",
+        "organic_treatment": [
+          "Destroy cull piles (waste potato heaps) before planting.",
+          "Apply copper fungicides frequently under high-risk weather forecasts."
+        ],
+        "chemical_treatment": [
+          "Apply systemic oomycide fungicides like Metalaxyl-M (Mefenoxam) or Fluopicolide."
+        ],
+        "recommended_fungicides": [
+          "Mefenoxam",
+          "Chlorothalonil",
+          "Fluopicolide",
+          "Mancozeb"
+        ],
+        "recommended_pesticides": [
+          "None"
+        ],
+        "recommended_fertilizers": [
+          "Maintain balanced crop nutrition; avoid waterlogging."
+        ],
+        "recommended_bio_control_methods": [
+          "Utilize specialized hyperparasitic fungi or Bacillus-based sprays."
+        ],
+        "preventive_measures": [
+          "Always use certified disease-free seed tubers.",
+          "Completely destroy all potato cull piles.",
+          "Kill vines 2 weeks before harvest to prevent spores from reaching tubers."
+        ],
+        "recommended_irrigation_advice": "Never irrigate if weather is cool, rainy, and humid.",
+        "recovery_time": "Irreversible; systemic treatments only check further spread if applied immediately.",
+        "expected_yield_loss": "50-100% (complete crop destruction).",
+        "dos": [
+          "Monitor weather warnings for late blight alerts.",
+          "Destroy the crop immediately if a localized infestation cannot be contained."
+        ],
+        "donts": [
+          "Do not dump cull potatoes near production fields.",
+          "Do not harvest when soil is wet, as this smears spores onto tubers."
+        ],
+        "government_advisory": "Late blight is a high-priority threat. Farmers are legally required to manage or destroy infected fields in many jurisdictions.",
+        "trusted_references": [
+          "EuroBlight Research Network",
+          "University of Wisconsin Extension Potato late Blight Hub"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "Can late blight survive in dry soil?",
+            "answer": "No, Phytophthora infestans cannot survive without host tissue or in dry soil."
+          }
+        ],
+        "farmer_tips": [
+          "Late blight spreads incredibly fast. A preventative cover spray is essential during cool, foggy, or rainy weeks."
+        ]
+      }
+    },
+    "prompt_context_builder": {
+      "query": "Potato___Late_blight with confidence 0.9977",
+      "output": {
+        "crop": "Potato",
+        "disease": "Late Blight",
+        "confidence": 99.77,
+        "symptoms": [
+          "Large, dark, water-soaked, irregular lesions on leaves that expand rapidly.",
+          "White, velvety mildew-like growth on leaf undersides in humid weather.",
+          "Foul, rotting smell in the field; copper-brown, dry decay inside tubers."
+        ],
+        "causes": [
+          "Oomycete pathogen overwintering in seed tubers or cull piles.",
+          "Rapid spore production under wet, cool conditions."
+        ],
+        "organic_treatment": [
+          "Destroy cull piles (waste potato heaps) before planting.",
+          "Apply copper fungicides frequently under high-risk weather forecasts."
+        ],
+        "chemical_treatment": [
+          "Apply systemic oomycide fungicides like Metalaxyl-M (Mefenoxam) or Fluopicolide."
+        ],
+        "fertilizer": [
+          "Maintain balanced crop nutrition; avoid waterlogging."
+        ],
+        "prevention": [
+          "Always use certified disease-free seed tubers.",
+          "Completely destroy all potato cull piles.",
+          "Kill vines 2 weeks before harvest to prevent spores from reaching tubers."
+        ],
+        "farmer_tips": [
+          "Late blight spreads incredibly fast. A preventative cover spray is essential during cool, foggy, or rainy weeks."
+        ],
+        "severity": "High",
+        "weather": "Cool (10-21°C), wet, rainy, and foggy conditions with high relative humidity.",
+        "references": [
+          "EuroBlight Research Network",
+          "University of Wisconsin Extension Potato late Blight Hub"
+        ]
+      }
+    },
+    "crop_search": {
+      "query": "Tomato",
+      "count": 10,
+      "crops_matched": [
+        "Tomato___healthy",
+        "Tomato___Bacterial_spot",
+        "Tomato___Early_blight",
+        "Tomato___Late_blight",
+        "Tomato___Leaf_Mold",
+        "Tomato___Septoria_leaf_spot",
+        "Tomato___Spider_mites Two-spotted_spider_mite",
+        "Tomato___Target_Spot",
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "Tomato___Tomato_mosaic_virus"
+      ]
+    },
+    "keyword_search": {
+      "query": "Bacterial Spot",
+      "count": 3,
+      "matched_diseases": [
+        "Peach___Bacterial_spot",
+        "Pepper,_bell___Bacterial_spot",
+        "Tomato___Bacterial_spot"
+      ]
+    },
+    "metadata": {
+      "unique_crops": [
+        "Apple",
+        "Blueberry",
+        "Cherry (including sour)",
+        "Corn (maize)",
+        "Grape",
+        "Orange",
+        "Peach",
+        "Pepper, bell",
+        "Potato",
+        "Raspberry",
+        "Soybean",
+        "Squash",
+        "Strawberry",
+        "Tomato"
+      ],
+      "unique_diseases_count": 20,
+      "unique_diseases": [
+        "Apple Scab",
+        "Bacterial Spot",
+        "Black Rot",
+        "Cedar Apple Rust",
+        "Cercospora Leaf Spot / Gray Leaf Spot",
+        "Citrus Greening / Huanglongbing",
+        "Common Rust",
+        "Early Blight",
+        "Esca / Black Measles",
+        "Late Blight",
+        "Leaf Blight / Isariopsis Leaf Spot",
+        "Leaf Mold",
+        "Leaf Scorch",
+        "Northern Leaf Blight",
+        "Powdery Mildew",
+        "Septoria Leaf Spot",
+        "Target Spot",
+        "Tomato Mosaic Virus (ToMV)",
+        "Tomato Yellow Leaf Curl Virus (TYLCV)",
+        "Two-Spotted Spider Mite"
+      ]
+    }
+  }
+}

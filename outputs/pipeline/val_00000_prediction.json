@@ -1,0 +1,229 @@
+{
+    "status": "success",
+    "image_path": "D:\\KrishiMitra2\\ai_models\\disease_detection\\datasets\\raw\\plantdoc_detection\\images\\val\\val_00000.jpg",
+    "leaves_found": 3,
+    "annotated_image_path": "outputs\\pipeline\\val_00000_annotated.jpg",
+    "results": [
+        {
+            "leaf_index": 1,
+            "box": [
+                31,
+                184,
+                1524,
+                1314
+            ],
+            "detection_confidence": 0.8837220668792725,
+            "crop_path": "outputs\\pipeline\\val_00000\\leaf_1_segmented.png",
+            "predicted_class": "Corn_(maize)___healthy",
+            "classification_confidence": 0.9440332651138306,
+            "top5_predictions": [
+                [
+                    "Corn_(maize)___healthy",
+                    0.9440332651138306
+                ],
+                [
+                    "Pepper,_bell___healthy",
+                    0.040246907621622086
+                ],
+                [
+                    "Corn_(maize)___Common_rust_",
+                    0.005473094992339611
+                ],
+                [
+                    "Pepper,_bell___Bacterial_spot",
+                    0.003633128711953759
+                ],
+                [
+                    "Cherry_(including_sour)___healthy",
+                    0.0029103001579642296
+                ]
+            ],
+            "gemini_prompt_context": {
+                "crop": "Corn (maize)",
+                "disease": "Healthy",
+                "confidence": 94.4,
+                "symptoms": [
+                    "Leaves show a normal green color, clean margins, and proper turgor pressure.",
+                    "No necrotic spots, powdery growth, mold, or visual signs of pest damage."
+                ],
+                "causes": [
+                    "Optimal soil nutrients and moisture levels.",
+                    "Effective preventative pest management and clean farming practices."
+                ],
+                "organic_treatment": [
+                    "No disease treatment required.",
+                    "Continue organic composting and bio-fertilizer application to maintain soil microbiology."
+                ],
+                "chemical_treatment": [
+                    "None required."
+                ],
+                "fertilizer": [
+                    "Apply balanced N-P-K organic compost or vermicompost as per growth requirements.",
+                    "Use micronutrient spray (Zinc, Boron) if minor soil deficiencies are observed."
+                ],
+                "prevention": [
+                    "Follow standard crop rotation practices.",
+                    "Use drip irrigation to keep foliage dry and reduce spore germination risks.",
+                    "Maintain weed-free surroundings."
+                ],
+                "farmer_tips": [
+                    "Ensure adequate spacing between plants to maximize sunlight exposure.",
+                    "Perform soil tests annually to keep nutrient ratios balanced."
+                ],
+                "severity": "Low",
+                "weather": "None - Growth is optimal under recommended crop-specific seasonal windows.",
+                "references": [
+                    "FAO Crop Production Guidelines",
+                    "USDA Agricultural Research Service Handbooks"
+                ]
+            }
+        },
+        {
+            "leaf_index": 2,
+            "box": [
+                1277,
+                65,
+                1971,
+                635
+            ],
+            "detection_confidence": 0.5973070859909058,
+            "crop_path": "outputs\\pipeline\\val_00000\\leaf_2_segmented.png",
+            "predicted_class": "Pepper,_bell___healthy",
+            "classification_confidence": 0.7745699882507324,
+            "top5_predictions": [
+                [
+                    "Pepper,_bell___healthy",
+                    0.7745699882507324
+                ],
+                [
+                    "Corn_(maize)___healthy",
+                    0.20008280873298645
+                ],
+                [
+                    "Cherry_(including_sour)___healthy",
+                    0.011023903265595436
+                ],
+                [
+                    "Tomato___Late_blight",
+                    0.0042314669117331505
+                ],
+                [
+                    "Blueberry___healthy",
+                    0.003409710479900241
+                ]
+            ],
+            "gemini_prompt_context": {
+                "crop": "Pepper, bell",
+                "disease": "Healthy",
+                "confidence": 77.46,
+                "symptoms": [
+                    "Leaves show a normal green color, clean margins, and proper turgor pressure.",
+                    "No necrotic spots, powdery growth, mold, or visual signs of pest damage."
+                ],
+                "causes": [
+                    "Optimal soil nutrients and moisture levels.",
+                    "Effective preventative pest management and clean farming practices."
+                ],
+                "organic_treatment": [
+                    "No disease treatment required.",
+                    "Continue organic composting and bio-fertilizer application to maintain soil microbiology."
+                ],
+                "chemical_treatment": [
+                    "None required."
+                ],
+                "fertilizer": [
+                    "Apply balanced N-P-K organic compost or vermicompost as per growth requirements.",
+                    "Use micronutrient spray (Zinc, Boron) if minor soil deficiencies are observed."
+                ],
+                "prevention": [
+                    "Follow standard crop rotation practices.",
+                    "Use drip irrigation to keep foliage dry and reduce spore germination risks.",
+                    "Maintain weed-free surroundings."
+                ],
+                "farmer_tips": [
+                    "Ensure adequate spacing between plants to maximize sunlight exposure.",
+                    "Perform soil tests annually to keep nutrient ratios balanced."
+                ],
+                "severity": "Low",
+                "weather": "None - Growth is optimal under recommended crop-specific seasonal windows.",
+                "references": [
+                    "FAO Crop Production Guidelines",
+                    "USDA Agricultural Research Service Handbooks"
+                ]
+            }
+        },
+        {
+            "leaf_index": 3,
+            "box": [
+                1669,
+                639,
+                2146,
+                996
+            ],
+            "detection_confidence": 0.4027602970600128,
+            "crop_path": "outputs\\pipeline\\val_00000\\leaf_3_segmented.png",
+            "predicted_class": "Tomato___Late_blight",
+            "classification_confidence": 0.8990551233291626,
+            "top5_predictions": [
+                [
+                    "Tomato___Late_blight",
+                    0.8990551233291626
+                ],
+                [
+                    "Corn_(maize)___healthy",
+                    0.10034453868865967
+                ],
+                [
+                    "Squash___Powdery_mildew",
+                    0.00016972718003671616
+                ],
+                [
+                    "Tomato___healthy",
+                    0.00014374821330420673
+                ],
+                [
+                    "Tomato___Early_blight",
+                    0.0001137260114774108
+                ]
+            ],
+            "gemini_prompt_context": {
+                "crop": "Tomato",
+                "disease": "Late Blight",
+                "confidence": 89.91,
+                "symptoms": [
+                    "Large, dark, water-soaked leaf lesions that expand rapidly and turn paper-thin.",
+                    "White, velvety fungal growth on leaf undersides in wet weather.",
+                    "Large, greasy, chocolate-brown, firm patches on green or ripe tomatoes."
+                ],
+                "causes": [
+                    "Oomycete pathogen overwintering on potato tubers or volunteer solanaceous hosts.",
+                    "Wet, cool summer weather allowing explosive spore production."
+                ],
+                "organic_treatment": [
+                    "Destroy infected plants immediately (bag and bury them; do not compost).",
+                    "Apply copper fungicides frequently during cool, wet weather forecasts."
+                ],
+                "chemical_treatment": [
+                    "Spray oomycide-specific fungicides like Mefenoxam or Chlorothalonil."
+                ],
+                "fertilizer": [
+                    "Avoid high nitrogen; keep plants robust with balanced nutrients."
+                ],
+                "prevention": [
+                    "Plant resistant tomato cultivars (e.g., Mountain Merit, Defiant PHR, Iron Lady).",
+                    "Avoid planting tomatoes near potatoes.",
+                    "Prune canopy to promote rapid drying."
+                ],
+                "farmer_tips": [
+                    "If late blight is in your area and the forecast shows rain and fog with cool temperatures, spray protective fungicides immediately. Do not wait for symptoms."
+                ],
+                "severity": "High",
+                "weather": "Cool, wet, rainy, and foggy conditions (10-21°C) with 90%+ humidity.",
+                "references": [
+                    "USABlight Monitoring Network",
+                    "Cornell University Late Blight Factsheet"
+                ]
+            }
+        }
+    ]
+}
