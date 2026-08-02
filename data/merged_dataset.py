@@ -208,14 +208,51 @@ class MergedDiseaseDataset(Dataset):
     def _load_plantdoc_samples(self) -> List[DatasetSample]:
         """Loads PlantDoc segmented/raw crops dynamically, mapping class names to 38 master classes."""
         plantdoc_map = self._load_plantdoc_mapping()
-        
+        samples = []
+
+        # 1. Check if augmented_plantdoc directory exists and scan it directly
+        dir_split = self.split
+        aug_dirs = [
+            Path("datasets/raw/augmented_plantdoc") / dir_split,
+            Path("ai_models/disease_detection/datasets/raw/augmented_plantdoc") / dir_split,
+            Path("datasets/raw/augmented_plantdoc"),
+            Path("ai_models/disease_detection/datasets/raw/augmented_plantdoc"),
+        ]
+        aug_dir = next((d for d in aug_dirs if d.exists() and any(x.is_dir() for x in d.iterdir())), None)
+
+        if aug_dir is not None:
+            logger.info(f"Scanning augmented_plantdoc directory for split '{self.split}' at: {aug_dir}")
+            scanned_paths = set()
+            for class_dir in sorted(aug_dir.iterdir()):
+                if class_dir.is_dir() and class_dir.name not in ["train", "val", "test", "__pycache__"]:
+                    raw_class_name = class_dir.name
+                    master_class = plantdoc_map.get(
+                        raw_class_name,
+                        plantdoc_map.get(raw_class_name.replace("_", " "), plantdoc_map.get(raw_class_name.lower(), raw_class_name))
+                    )
+                    if master_class not in self.class_to_index:
+                        continue
+
+                    for ext in ("*.png", "*.jpg", "*.jpeg", "*.PNG", "*.JPG", "*.JPEG"):
+                        for img_file in class_dir.glob(ext):
+                            if str(img_file) not in scanned_paths:
+                                scanned_paths.add(str(img_file))
+                                samples.append(DatasetSample(
+                                    image_path=str(img_file),
+                                    class_name=master_class,
+                                    dataset="plantdoc_classification"
+                                ))
+            if samples:
+                logger.info(f"Loaded {len(samples)} Augmented PlantDoc samples mapped to master 38 classes for split '{self.split}'.")
+                return samples
+
+        # 2. Fallback to CSV if augmented_plantdoc is not present
         csv_candidates = [
             Path("outputs/splits") / f"plantdoc_classification_{self.split}.csv",
             Path("ai_models/disease_detection/outputs/splits") / f"plantdoc_classification_{self.split}.csv"
         ]
         csv_path = next((c for c in csv_candidates if c.exists()), None)
 
-        samples = []
         if csv_path is not None:
             logger.info(f"Loading PlantDoc samples for split '{self.split}' from CSV: {csv_path}")
             df = pd.read_csv(csv_path)
@@ -232,14 +269,10 @@ class MergedDiseaseDataset(Dataset):
                     candidate_paths = [
                         Path(raw_rel),
                         Path("ai_models/disease_detection") / raw_rel,
-                        Path("datasets/raw/augmented_plantdoc") / self.split / raw_class_name / filename,
-                        Path("ai_models/disease_detection/datasets/raw/augmented_plantdoc") / self.split / raw_class_name / filename,
                         Path("datasets/raw/plantdoc_classification") / self.split / raw_class_name / filename,
                         Path("ai_models/disease_detection/datasets/raw/plantdoc_classification") / self.split / raw_class_name / filename,
                         Path("datasets/processed/plantdoc_classification") / self.split / raw_class_name / filename,
                         Path("ai_models/disease_detection/datasets/processed/plantdoc_classification") / self.split / raw_class_name / filename,
-                        Path("datasets/raw/augmented_plantdoc") / raw_class_name / filename,
-                        Path("ai_models/disease_detection/datasets/raw/augmented_plantdoc") / raw_class_name / filename,
                         Path("datasets/raw/plantdoc_classification") / raw_class_name / filename,
                         Path("ai_models/disease_detection/datasets/raw/plantdoc_classification") / raw_class_name / filename,
                         Path("datasets/processed/plantdoc_classification") / raw_class_name / filename,
