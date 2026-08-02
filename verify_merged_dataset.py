@@ -41,7 +41,6 @@ def verify_dataset():
         master_mapping = json.load(f)
     
     print(f"\n1. Master Mapping Loaded: {len(master_mapping)} classes.")
-    
     # 2. Test Dataset Loading (Train split)
     print("\n2. Initializing MergedDiseaseDataset (split='train', mix_ratio=0.15)...")
     try:
@@ -52,9 +51,10 @@ def verify_dataset():
         
     print(f"   ✓ Total train samples loaded: {len(train_ds.samples)}")
     print(f"   ✓ PlantVillage samples     : {len(train_ds.pv_samples)}")
-    print(f"   ✓ PlantDoc samples         : {len(train_ds.pd_samples)}")
-    
-    # 3. Class Matching Breakdown
+    print(f"   ✓ PlantDoc / Augmented samples: {len(train_ds.pd_samples)}")
+    if train_ds.pd_samples:
+        sample_path = train_ds.pd_samples[0].image_path
+        print(f"   ✓ Sample PlantDoc Path     : {sample_path}")
     print("\n3. Class Match Breakdown across Datasets:")
     pv_counts = {}
     pd_counts = {}
