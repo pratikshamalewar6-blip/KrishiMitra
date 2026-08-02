@@ -228,10 +228,14 @@ class MergedDiseaseDataset(Dataset):
                     candidate_paths = [
                         Path(raw_rel),
                         Path("ai_models/disease_detection") / raw_rel,
+                        Path("datasets/raw/augmented_plantdoc") / self.split / raw_class_name / filename,
+                        Path("ai_models/disease_detection/datasets/raw/augmented_plantdoc") / self.split / raw_class_name / filename,
                         Path("datasets/raw/plantdoc_classification") / self.split / raw_class_name / filename,
                         Path("ai_models/disease_detection/datasets/raw/plantdoc_classification") / self.split / raw_class_name / filename,
                         Path("datasets/processed/plantdoc_classification") / self.split / raw_class_name / filename,
                         Path("ai_models/disease_detection/datasets/processed/plantdoc_classification") / self.split / raw_class_name / filename,
+                        Path("datasets/raw/augmented_plantdoc") / raw_class_name / filename,
+                        Path("ai_models/disease_detection/datasets/raw/augmented_plantdoc") / raw_class_name / filename,
                         Path("datasets/raw/plantdoc_classification") / raw_class_name / filename,
                         Path("ai_models/disease_detection/datasets/raw/plantdoc_classification") / raw_class_name / filename,
                         Path("datasets/processed/plantdoc_classification") / raw_class_name / filename,
@@ -248,10 +252,14 @@ class MergedDiseaseDataset(Dataset):
         if not samples:
             dir_split = "val" if self.split in ["val", "test"] else "train"
             candidate_dirs = [
+                Path("datasets/raw/augmented_plantdoc") / dir_split,
+                Path("ai_models/disease_detection/datasets/raw/augmented_plantdoc") / dir_split,
                 Path("datasets/raw/plantdoc_classification") / dir_split,
                 Path("ai_models/disease_detection/datasets/raw/plantdoc_classification") / dir_split,
                 Path("datasets/processed/plantdoc_classification") / dir_split,
                 Path("ai_models/disease_detection/datasets/processed/plantdoc_classification") / dir_split,
+                Path("datasets/raw/augmented_plantdoc"),
+                Path("ai_models/disease_detection/datasets/raw/augmented_plantdoc"),
                 Path("datasets/raw/plantdoc_classification"),
                 Path("ai_models/disease_detection/datasets/raw/plantdoc_classification"),
                 Path("datasets/processed/plantdoc_classification"),
