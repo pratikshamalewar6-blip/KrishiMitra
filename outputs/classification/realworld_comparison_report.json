@@ -1,0 +1,18 @@
+{
+    "Old Model (PlantVillage only)": {
+        "model_size_mb": 15.770601272583008,
+        "inference_latency_ms": 24.017932415008545,
+        "plantvillage_top1": 0.9981660349675999,
+        "plantvillage_top5": 1.0,
+        "plantdoc_top1": 0.14938271604938272,
+        "plantdoc_top5": 0.42345679012345677
+    },
+    "Improved Model (Real-World)": {
+        "model_size_mb": 15.771295547485352,
+        "inference_latency_ms": 21.70133352279663,
+        "plantvillage_top1": 0.9976769776256266,
+        "plantvillage_top5": 1.0,
+        "plantdoc_top1": 0.9141975308641975,
+        "plantdoc_top5": 0.9845679012345679
+    }
+}
