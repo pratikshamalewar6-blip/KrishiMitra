@@ -12,7 +12,7 @@ paths:
   datasets:
     raw: datasets/raw
 
-    plantvillage: datasets/raw/plantvillage
+    plantvillage: datasets/raw/plantvillage/color
 
     plantdoc_classification: datasets/raw/plantdoc_classification
 
