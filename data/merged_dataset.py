@@ -112,6 +112,10 @@ class MergedDiseaseDataset(Dataset):
                     for k, v in raw_map.items():
                         plantdoc_map[k] = v
                         plantdoc_map[k.replace(" ", "_")] = v
+                        plantdoc_map[k.replace("_", " ")] = v
+                        plantdoc_map[k.lower()] = v
+                        plantdoc_map[k.replace(" ", "_").lower()] = v
+                        plantdoc_map[k.replace("_", " ").lower()] = v
                     break
                 except Exception as e:
                     logger.warning(f"Failed to load plantdoc_mapping.json from {mapping_path}: {e}")
