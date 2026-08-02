@@ -254,7 +254,7 @@ class MergedDiseaseDataset(Dataset):
                         ))
 
         if not samples:
-            dir_split = "val" if self.split in ["val", "test"] else "train"
+            dir_split = self.split
             candidate_dirs = [
                 Path("datasets/raw/augmented_plantdoc") / dir_split,
                 Path("ai_models/disease_detection/datasets/raw/augmented_plantdoc") / dir_split,
@@ -262,12 +262,13 @@ class MergedDiseaseDataset(Dataset):
                 Path("ai_models/disease_detection/datasets/raw/plantdoc_classification") / dir_split,
                 Path("datasets/processed/plantdoc_classification") / dir_split,
                 Path("ai_models/disease_detection/datasets/processed/plantdoc_classification") / dir_split,
+                # Fallback to val if test dir is absent in older plantdoc
+                Path("datasets/raw/plantdoc_classification") / ("val" if self.split == "test" else self.split),
+                Path("ai_models/disease_detection/datasets/raw/plantdoc_classification") / ("val" if self.split == "test" else self.split),
                 Path("datasets/raw/augmented_plantdoc"),
                 Path("ai_models/disease_detection/datasets/raw/augmented_plantdoc"),
                 Path("datasets/raw/plantdoc_classification"),
                 Path("ai_models/disease_detection/datasets/raw/plantdoc_classification"),
-                Path("datasets/processed/plantdoc_classification"),
-                Path("ai_models/disease_detection/datasets/processed/plantdoc_classification"),
             ]
 
             scanned_paths = set()
