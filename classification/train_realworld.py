@@ -151,14 +151,24 @@ def main() -> None:
     # 3. Build model and move to device
     model = DiseaseClassifier(config)
     
-    # Load Stage 1 PlantVillage pre-trained weights if available
-    pretrained_file = Path(args.pretrained_path)
-    if pretrained_file.exists():
+    # Load pre-trained weights (prioritize previous realworld checkpoint, fallback to base checkpoint)
+    realworld_checkpoint = Path("saved_models/efficientnet_b0_realworld.pt")
+    base_checkpoint = Path(args.pretrained_path)
+
+    if realworld_checkpoint.exists():
+        pretrained_file = realworld_checkpoint
+        logger.info(f"Loading existing real-world fine-tuned weights from: {pretrained_file}")
+    elif base_checkpoint.exists():
+        pretrained_file = base_checkpoint
         logger.info(f"Loading pre-trained PlantVillage weights from: {pretrained_file}")
+    else:
+        pretrained_file = None
+
+    if pretrained_file and pretrained_file.exists():
         state_dict = torch.load(pretrained_file, map_location=config.DEVICE)
         model.load_state_dict(state_dict)
     else:
-        logger.info(f"Pre-trained weights file '{pretrained_file}' not found. Initializing from ImageNet backbone.")
+        logger.info("No pre-trained weights file found. Initializing from ImageNet backbone.")
 
     model.to(config.DEVICE)
 

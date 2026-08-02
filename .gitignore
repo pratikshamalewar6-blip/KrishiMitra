@@ -40,10 +40,12 @@ logs/
 # *.engine
 
 # ==========================================
-# Outputs
+# Outputs & Pipeline Visuals
 # ==========================================
 
-# outputs/
+outputs/pipeline/
+outputs/classification/*.png
+outputs/analysis/
 
 # ==========================================
 # Dataset
